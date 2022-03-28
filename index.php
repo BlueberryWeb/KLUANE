@@ -2,46 +2,30 @@
 require_once("tools/header.php");
 require_once("tools/navbar.php");
 ?>
-    <header>
-        <div class="container">
-            <div class="row">
+   <video src="vid/loop-index.mp4" muted loop autoplay ></video>
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="text">
+                        <div class="container">
+                            <div class="row d-flex justify-content-center">
+                                <h1>EXPLORING WITH YOU</h1>
+                                <h1><b>FOR THE FUTURE</b></h1>
+                                <div class="">
+                                    <button class="btn btn-primary"> <a href="#">VIEW MORE</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+           
+    </section>
+    <?php
+    require_once("tools/menu.php");
+    ?>
 
-            </div>
-        </div>
-        <h1>EXPLORING WITH YOU</h1>
-        <h1><b>FOR THE FUTURE</b></h1>
-        <button type="button" class="btn btn-primary">VIEW MORE</button>
-    </header>
-
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <h3><b>MORE THAN</b></h3>
-                <h2>30 YEARS OF</h2>
-                <h1><b>EXPERIENCE</b></h1>
-                <p>Kluane Drilling Ltd. is a private Canadian <br>
-                company with more 30 years of <br>
-                experience dedicated to providing high <br>
-                quality drilling services based on technical <br>
-                innovation and human talent. </p>
-            </div>
-            <div class="row">
-                <img src="" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <h3><b>HIGH QUALITY</b></h3>
-                <h3><b>DRILLING SERVICES</b></h3>
-                <p>Our services are focused on the <b>highest standards <br>
-                of quality, safety, care of environment,</b> good <br>
-            community relations and encouranging a <b>safe  and <br>
-            healthy work environment.</b></p>
-            </div>
-        </div>
-    </div>
     <div class="container-fluid">
         <div class="container">
             <div class="row">
@@ -57,32 +41,8 @@ require_once("tools/navbar.php");
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="div container">
-            <div class="row">
-                <img src="" alt="">
-                <h1><b>ENVIRONMENT <br>
-                AND SOCIAL <br>
-                IMPACT</b></h1>
-                <p>Kluane Drilling Ltd. understand the <br>
-                <b>importance of environment care and <br>
-                good relations with the community</b> and <br>
-                strives to ensure that its operation are <br>
-                carried out to the <b>highest standards in a <br>
-                professional and responsible manner.</b> </p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <img src="" alt=""/>
-                <p>We understand <b>the importance of nature reserves,</b> <br>
-                we ensure that our operation is carried out in a <br>
-                <b>professional and responsible manner.</b></p>
-            </div>
-        </div>
-    </div>
+   
+   
     <div class="container-fluid">
         <div class="container">
             <div class="row">

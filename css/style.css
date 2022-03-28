@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.showcase-menu{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 90vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/textura-fondo-menu.jpg");
+
+}
+.showcase-menu header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.showcase{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 90vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+}
+.showcase header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.showcase video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.overlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%; 
+}
+.text{
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+.text h1{
+    font-size: 4.2rem;
+}
+/*TEXTURAS*/
+.showcase1{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 40vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+}
+.showcase1 header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.showcase1 video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+/*FIN TEXTURAS*/
+/*OTROS FONDOS*/
+.showcase2{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 70vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+}
+.showcase2 header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.showcase2 video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+/*FIN DE LOS OTROS FONDOS*/
+.fa-xmark{
+    color: white;
+    font-size: 2rem;
+}
+.fa-bars{
+    color: white;
+    font-size: 2rem;
+}
+.btn-primary{
+    border-color: #fff;
+    background-color: transparent;
+    width: 150px;
+    border-radius: 11px;
+}
+.btn-primary:hover{
+    background: none;
+    color: #fff;
+    border-color: #fff;
+}
+.close{
+    margin-right: 40px;
+}
+#menu{
+    display: none;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+#menu li{
+    list-style: none;
+    text-align: right;
+    line-height: 80px;
+}
+
+.idioma{
+    text-align: right;
+}
+.idioma a{
+    margin-left: 25px;
+}
+#icono-pais{
+    max-width: 80px;
+    float: left;
+}
+#paises h1{
+    font-size: 2.5rem;
+}
+th{
+    width: 50px;
+    height: 50px;
+}
+td{
+    height: auto;
+}
+#fondo-team{
+    width: 100%;
+    height: 90vh;
+    background-image: url("../img/workers-parallax.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fondo-bosque{
+    width: 100%;
+    height: 70vh;
+    background-image: url("../img/forest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fondo-mountains{
+    width: 100%;
+    height: 70vh;
+    background-image: url("../img/photo-mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#icono{
+   max-width: 100px; 
+}
+.fondo-footer{
+    background-color: #122048;
+    color: white;
+}
+.fondo-footer h5{
+    font-size: 0.7rem;
+}
+.menu-footer h5{
+    font-size: 0.9rem;
+    line-height: 30px;
+    color: #464646;
+}
+.redes img{
+    max-width: 30px;
+}
+#logo{
+    max-width: 220px;
+}
+.showcase-menu span{
+    font-size: 0.6rem;
+}
