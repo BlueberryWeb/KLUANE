@@ -91,7 +91,7 @@ li{
 .text h1{
     font-size: 4.2rem;
 }
-/*TEXTURAS*/
+/*TEXTURAS 40vh*/
 .showcase1{
     position: relative;
     right: 0;
@@ -127,7 +127,7 @@ li{
     opacity: 0.8;
 }
 /*FIN TEXTURAS*/
-/*OTROS FONDOS*/
+/*OTROS FONDOS 70vh*/
 .showcase2{
     position: relative;
     right: 0;
@@ -154,6 +154,29 @@ li{
 
 }
 .showcase2 video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.showcase-enviroment{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 110vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+}
+
+.showcase-enviroment video{
     position: absolute;
     top: 0;
     left: 0;
@@ -242,7 +265,7 @@ td{
 }
 #fondo-montanas{
     width: 100%;
-    height: 40vh;
+    height: auto;
     background-image: url("../img/painting.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -253,6 +276,15 @@ td{
     background-image: url("../img/vertical-forest.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+}
+.iso{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/iso.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
     color: white;
 }
 #linea1{
@@ -272,8 +304,14 @@ td{
 }
 .we-have{
     max-width: 50px;
-   float: left;
-   margin-right: 15px; 
+    float: left;
+    margin-right: 15px; 
+}
+#worker{
+    margin-bottom: 80px;
+}
+#minimal{
+    margin-bottom: 120px;
 }
 #fondo-montanas img{
     margin-top: 70px;
@@ -322,4 +360,100 @@ footer span{
 }
 .showcase-menu span{
     font-size: 0.6rem;
+}
+.card{
+    background: transparent;
+    border-color: white;
+}
+.environment{
+    width: 100%;
+    margin-bottom: 100px;
+}
+#card img{
+    margin-top: 20px;
+    max-width: 80px;
+    margin-bottom: 40px;
+}
+.contenido{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.contenido h3{
+    font-size: 2.1rem;
+}
+.contenido p{
+    font-size: 1.1rem;
+}
+.img-thumbnail-item2{
+    padding: 0.25rem;
+    background: #fff;
+    max-width: 80%;
+}
+.risk{
+    margin-bottom: 80px;
+}
+#fondo-azul{
+    background-color: #122048;
+    color: white;
+}
+#fondo-negro{
+    background-color: #000;
+}
+#fondo-azul .nav-link{
+    border-color: white;
+    border-radius: 0;
+    color: white;
+}
+.nav-tabs{
+    border-bottom: 0;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1)!important;
+}
+.modal-content, .modal-header{
+    background: none;
+    border: none;
+}
+.btn-close{
+    color: #fff!important;
+}
+#poster{
+    max-width: 800px;
+}
+.container-image{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+.imagen-poster{
+    width: 100%;
+    height: auto;
+}
+.img-thumbnail-item{
+    padding: 0.25rem;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 0.25rem;
+    max-width: 70%;
+}
+.btn-play{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    widows: 100%;
+    background-color: transparent;
+}
+#btn-play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    cursor: pointer;
+    z-index: 2;
+}
+.btn-play img{
+    max-width: 200px;
 }
