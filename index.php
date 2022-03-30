@@ -3,14 +3,12 @@ require_once("tools/header.php");
 require_once("tools/navbar.php");
 ?>
    <video src="vid/loop-index.mp4" muted loop autoplay ></video>
-            <div class="overlay"></div>
             <div class="container">
-                <div class="row d-flex justify-content-center">
+                <div class="row d-flex justify-content-center index">
                     <div class="text">
                         <div class="container">
                             <div class="row d-flex justify-content-center">
-                                <h1>EXPLORING WITH YOU</h1>
-                                <h1><b>FOR THE FUTURE</b></h1>
+                                <h1>EXPLORING WITH YOU <br> <b>FOR THE FUTURE</b></h1>
                                 <div class="">
                                     <button class="btn btn-primary"> <a href="#">VIEW MORE</a></button>
                                 </div>
@@ -20,14 +18,13 @@ require_once("tools/navbar.php");
                     </div>
                 </div>
             </div>
-           
     </section>
     <?php
     require_once("tools/menu.php");
     ?>
 
-     <!--More than 30 yearss-->
-     <div class="container-fluid pt-3" id="fondo-mountains">
+    <!--More than 30 yearss-->
+    <div class="container-fluid pt-3" id="fondo-mountains">
         <div class="container" >
             <div class="row d-flex justify-content-center">
                 <div class="row d-flex justify-content-center">
@@ -49,7 +46,7 @@ require_once("tools/navbar.php");
         </div>
     </div>
     <!--High Quality-->
-    <section class="showcase">
+    <section class="showcase" id="high-quality">
         <header class="navbar navbar-expand-lg">
             <div class="container justify-content-end">
                 <div class="row d-flex justify-content-center">
@@ -58,7 +55,7 @@ require_once("tools/navbar.php");
                             <div class="row d-flex justify-content-center">
                                 <div class="col-12 col-lg-4 align-self-center"></div>
                                 <div class="col-12 col-lg-6 align-self-center">
-                                    <div class="row d-flex justify-content-end">
+                                    <div class="row d-flex justify-content-end high-quality">
                                         <div class="row justify-content-end">
                                         </div>
                                         <div class="row pt-2">
@@ -74,7 +71,6 @@ require_once("tools/navbar.php");
                                 <div class="col-12 col-lg-2 align-self-center"></div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -85,7 +81,7 @@ require_once("tools/navbar.php");
                     <div class="text">
                         <div class="container">
                             <div class="row d-flex justify-content-center">
-                                <img src="img/workers-parallax.png" alt=""/>
+                                <img src="img/workers-parallax.png" alt="" class="img-fluid "/>
                             </div>
                         </div>
                         
@@ -107,7 +103,7 @@ require_once("tools/navbar.php");
                         <div class="row pt-2">
                             <h1><b>RISK ANALYSIS <br>
                                 AND PREVENTION</b></h1>
-                                <p>All Kluane Drilling Ltd. personnel <b>receive <br>
+                                <p class="mb-5">All Kluane Drilling Ltd. personnel <b>receive <br>
                                 continuos training under international <br>
                                 standards</b> and best practices in the industry, with <br>
                                 speacial enphasis on risk analytics and prevention, <br>
@@ -118,47 +114,41 @@ require_once("tools/navbar.php");
                     
                 </div>
                 <div class="col-12 col-lg-4 align-self-center">
-                    <div class="row d-flex justify-content-end">
-                        <div class="row pt-5">
-                        </div>    
-                    </div> 
                 </div>
                 <div class="col-12 col-lg-2 align-self-center"></div>
             </div>
         </div>
     </div>
     <!--Enviroment and social impact-->
-    <section class="showcase2">
+    <section class="showcase2" id="social-impact">
         <header class="navbar navbar-expand-lg">
             <div class="container justify-content-end">
                 <div class="row d-flex justify-content-center">
-                    <div class="text">
-                        <div class="container pt-5" >
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-12 col-lg-4 align-self-center"></div>
-                                <div class="col-12 col-lg-6 col-sm-12 align-self-center">
-                                    <div class="row d-flex justify-content-end">
-                                        <div class="row justify-content-end">
-                                            <img src="img/Environment.gif" alt="Environment" id="icono" class="img-fluid"/>
-                                        </div>
-                                        <div class="row pt-2">
-                                            <h2 class="text-end"><b>ENVIRONMENT <br>
-                                                AND SOCIAL <br>
-                                                IMPACT</b></h2>
-                                                <p class="text-end">Kluane Drilling Ltd. understand the <br>
-                                                <b>importance of environment care and <br>
-                                                good relations with the community</b> and <br>
-                                                strives to ensure that its operation are <br>
-                                                carried out to the <b>highest standards in a <br>
-                                                professional and responsible manner.</b> </p>
-                                        </div>    
-                                    </div> 
-                                </div>
-                                <div class="col-12 col-lg-2 align-self-center"></div>
+                    <div class="container pt-5" >
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12 col-lg-4 align-self-center"></div>
+                            <div class="col-12 col-lg-6 col-sm-12 align-self-center">
+                                <div class="row d-flex justify-content-end social-impact">
+                                    <div class="row justify-content-end">
+                                        <img src="img/Environment.gif" alt="Environment" id="icono" class="img-fluid"/>
+                                    </div>
+                                    <div class="row pt-2">
+                                        <h2 class="text-end"><b>ENVIRONMENT <br>
+                                            AND SOCIAL <br>
+                                            IMPACT</b></h2>
+                                            <p class="text-end">Kluane Drilling Ltd. understand the <br>
+                                            <b>importance of environment care and <br>
+                                            good relations with the community</b> and <br>
+                                            strives to ensure that its operation are <br>
+                                            carried out to the <b>highest standards in a <br>
+                                            professional and responsible manner.</b> </p>
+                                    </div>    
+                                </div> 
                             </div>
+                            <div class="col-12 col-lg-2 align-self-center"></div>
                         </div>
-                        
                     </div>
+                        
                 </div>
             </div>
         </header>
@@ -177,7 +167,7 @@ require_once("tools/navbar.php");
             </div>  
     </section>
     <!--Textura verde-->
-    <section class="showcase1">
+    <section class="showcase-texturas">
         <header class="navbar navbar-expand-lg">
             <div class="container justify-content-center">
                 <div class="row d-flex justify-content-center">
@@ -221,7 +211,7 @@ require_once("tools/navbar.php");
                             <div class="row d-flex justify-content-center">
                                 <div class="col-12 col-lg-4 align-self-center"></div>
                                 <div class="col-12 col-lg-6 col-sm-12 align-self-center">
-                                    <div class="row d-flex justify-content-end">
+                                    <div class="row d-flex justify-content-end water">
                                         <div class="row justify-content-start">
                                             <img src="img/Water.gif" alt="WATER RECIRCULATION METHODS" id="icono" class="img-fluid"/>
                                         </div>
@@ -258,7 +248,7 @@ require_once("tools/navbar.php");
             </div>  
     </section>
     <!--Textura Café-->
-    <section class="showcase1">
+    <section class="showcase-texturas">
         <header class="navbar navbar-expand-lg">
             <div class="container justify-content-center">
                 <div class="d-flex justify-content-center">
@@ -292,13 +282,12 @@ require_once("tools/navbar.php");
             </div>  
     </section>
     <!--Fondo planeta-->
-    <section class="showcase" id="showcase">
-        <video src="vid/space-countries.mp4" muted loop autoplay ></video>
-        <div class="text">
+    <section class="showcase" id="planeta">
+        <header class="navbar navbar-expand-lg">
             <div class="container pt-5" >
                 <div class="row d-flex justify-content-center">
                     <div class="col-12 col-lg-2 align-self-center"></div>
-                    <div class="col-12 col-lg-6 col-sm-12 aling-self-center">
+                    <div class="col-12 col-lg-6 col-sm-12 aling-self-center planeta">
                         <div class="row">
                             <div class="row">
                                 <h1 class="text-start"><b>OUR PRESENCE</b></h1>
@@ -329,6 +318,10 @@ require_once("tools/navbar.php");
                     <div class="col-12 col-lg-2 align-self-center"></div>
                 </div>
             </div>
+        </header>
+        <video src="vid/space-countries.mp4" muted loop autoplay ></video>
+        <div class="text">
+           
         </div>
            
     </section>

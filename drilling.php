@@ -106,7 +106,7 @@ require_once("tools/navbar.php");
     </div>
     <div class="container-fluid">
         <div class="row">
-            <h5>galleria</h5>
+            <span>galleria</span>
         </div>
     </div>
     <div class="container-fluid">
@@ -114,42 +114,42 @@ require_once("tools/navbar.php");
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 aling-self-center pt-5">
                     <img src="" alt=""/>
-                    <h5>Adaptability to adverse <br>
+                    <span>Adaptability to adverse <br>
                     climatic and geological <br>
-                    conditions.</h5>
+                    conditions.</span>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 aling-self-center pt-5">
                     <img src="" alt=""/>
-                    <h5>High production and <br>
+                    <span>High production and <br>
                     excellent depth <br>
-                    capacity.</h5>
+                    capacity.</span>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 aling-self-center pt-5">
                     <img src="" alt=""/>
-                    <h5>Efficiency during <br>
+                    <span>Efficiency during <br>
                     transfer between <br>
-                    platforms.</h5>
+                    platforms.</span>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 aling-self-center pt-5">
                     <img src="" alt=""/>
-                    <h5>Easy transport and <br>
+                    <span>Easy transport and <br>
                     assembly of lighweight <br>
                     components (max. <br>
                     weight of an individual <br>
-                    component(160 - 180kgs))</h5>
+                    component(160 - 180kgs))</span>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 aling-self-center pt-5">
                     <img src="" alt=""/>
-                    <h5>Minimal <br>
+                    <span>Minimal <br>
                     environmental <br>
-                    impact.</h5>
+                    impact.</span>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 aling-self-center pt-5">
                     <img src="" alt=""/>
-                    <h5>Fast and efficient <br>
-                    logistical support.</h5>
+                    <span>Fast and efficient <br>
+                    logistical support.</span>
                 </div>
             </div>
         </div>

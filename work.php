@@ -4,7 +4,7 @@ require_once("tools/navbar.php");
 ?>
     <div class="container-fluid">
         <div class="row">
-            <h5>galeria</h5>
+            <span>galeria</span>
         </div>
     </div>
     <div class="container">

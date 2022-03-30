@@ -92,7 +92,7 @@ li{
     font-size: 4.2rem;
 }
 /*TEXTURAS 40vh*/
-.showcase1{
+.showcase-texturas{
     position: relative;
     right: 0;
     width: 100%;
@@ -105,7 +105,7 @@ li{
     color: #fff;
     z-index: 2;
 }
-.showcase1 header{
+.showcase-texturas header{
     position: absolute;
     top: 0;
     left: 0;
@@ -117,7 +117,7 @@ li{
     justify-content: space-between;
 
 }
-.showcase1 video{
+.showcase-texturas video{
     position: absolute;
     top: 0;
     left: 0;
@@ -229,7 +229,8 @@ li{
     margin-left: 25px;
 }
 #icono-pais{
-    max-width: 80px;
+    margin-right: 15px; 
+    max-width: 60px;
     float: left;
 }
 #paises h1{
@@ -251,7 +252,7 @@ td{
 }
 #fondo-bosque{
     width: 100%;
-    height: 70vh;
+    height: auto;
     background-image: url("../img/forest.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -466,4 +467,424 @@ footer span{
 .btn-enviar{
     background-color: white;
     width: 180px;
+}
+#contact a{
+    color: black;
+}
+@media screen and (max-width:300px){
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 90vh;
+    }
+    .showcase2 header{
+        padding: 0;
+    }
+    .showcase-texturas{
+        min-height: 60vh;
+    }
+    .showcase-texturas header{
+        padding: 0;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+    }
+    #fondo-mountains{
+        height: 110vh;
+    }
+    #planeta header{
+        padding: 0;
+    }
+    #planeta{
+        min-height: 140vh;
+    }
+    .showcase header{
+        padding: 0;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px;  
+    }
+    .showcase-enviroment{
+        padding: 0;
+    }
+    #sustainability{
+        padding: 0;
+    }
+    #worker{
+        margin-bottom: 120px;
+    }
+    #minimal{
+        margin-bottom: 170px;
+    }
+}
+@media screen and (max-width:400px){
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 90vh;
+    }
+    .showcase2 header{
+        padding: 0;
+    }
+    .showcase-texturas{
+        min-height: 80vh;
+    }
+    .showcase-texturas header{
+        padding: 0;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+    }
+    #fondo-mountains{
+        height: 100vh;
+    }
+    #planeta header{
+        padding: 0;
+    }
+    #planeta{
+        min-height: 140vh;
+    }
+    .showcase header{
+        padding: 0;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px; 
+    }
+    .showcase-enviroment{
+        padding: 0;
+    }
+    #sustainability{
+        padding: 0;
+    }
+    #worker{
+        margin-bottom: 120px;
+    }
+    #minimal{
+        margin-bottom: 170px;
+    }
+}
+@media screen and (max-width:500px){
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 90vh;
+    }
+    .showcase2 header{
+        padding: 0;
+    }
+    .showcase-texturas{
+        min-height: 80vh;
+    }
+    .showcase-texturas header{
+        padding: 0;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+    }
+    #fondo-mountains{
+        height: 100vh;
+    }
+    #planeta header{
+        padding: 0;
+    }
+    #planeta{
+        min-height: 140vh;
+    }
+    .showcase header{
+        padding: 0;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px;
+        
+    }
+    .showcase-enviroment{
+        padding: 0;
+    }
+    #sustainability{
+        padding: 0;
+    }
+    #worker{
+        margin-bottom: 30px;
+    }
+    #minimal{
+        margin-bottom: 80px;
+    }
+}
+@media screen and (max-width:600px){
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 90vh;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+    }
+    .showcase header{
+        padding: 0;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px;
+        
+    }
+    .showcase-enviroment{
+        padding: 0;
+    }
+    #sustainability{
+        padding: 0;
+    }
+    #worker{
+        margin-bottom: 30px;
+    }
+    #minimal{
+        margin-bottom: 80px;
+    }
+}
+@media screen and (max-width:700px){
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 90vh;
+    }
+    .showcase2 header{
+        padding: 0;
+    }
+    .showcase-texturas{
+        min-height: 80vh;
+    }
+    .showcase-texturas header{
+        padding: 0;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+    }
+    #fondo-mountains{
+        height: 100vh;
+    }
+    #planeta header{
+        padding: 0;
+    }
+    #planeta{
+        min-height: 140vh;
+    }
+    .showcase header{
+        padding: 0;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px;   
+    }
+    .showcase-enviroment{
+        padding: 0;
+    }
+    #sustainability{
+        padding: 0;
+    }
+    #worker{
+        margin-bottom: 30px;
+    }
+    #minimal{
+        margin-bottom: 80px;
+    }
+}
+@media screen and (max-width:800px){
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 90vh;
+    }
+    .showcase2 header{
+        padding: 0;
+    }
+    .showcase-texturas{
+        min-height: 80vh;
+    }
+    .showcase-texturas header{
+        padding: 0;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+    }
+    #fondo-mountains{
+        height: 100vh;
+    }
+    #planeta header{
+        padding: 0;
+    }
+    #planeta{
+        min-height: 140vh;
+    }
+    .showcase header{
+        padding: 0;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px; 
+    }
+    #worker{
+        margin-bottom: 30px;
+    }
+    #minimal{
+        margin-bottom: 50px;
+    }
+    #linea1{
+        max-width: 400px;
+        margin-top: 50px;
+        margin-left: 190px;
+        margin-bottom: 0px;
+    }
+    #linea2{
+        margin-top: 10px;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+    #fondo-forest{
+        height: 240vh;
+    }
+}
+@media screen and (max-width:990px){
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 90vh;
+    }
+    .showcase2 header{
+        padding: 0;
+    }
+    .showcase-texturas{
+        min-height: 80vh;
+    }
+    .showcase-texturas header{
+        padding: 0;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+    }
+    #fondo-mountains{
+        height: 100vh;
+    }
+    #planeta header{
+        padding: 0;
+    }
+    #planeta{
+        min-height: 140vh;
+    }
+    .showcase header{
+        padding: 10px 50px;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px;
+        
+    }
+    #worker{
+        margin-bottom: 30px;
+    }
+    #minimal{
+        margin-bottom: 50px;
+    }
+    #linea1{
+        max-width: 400px;
+        margin-top: 50px;
+        margin-left: 190px;
+        margin-bottom: 0px;
+    }
+    #linea2{
+        margin-top: 10px;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+    #fondo-forest{
+        height: 240vh;
+    }
+    .contenido{
+        margin-left: 170px;
+    }
 }
