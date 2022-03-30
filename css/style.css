@@ -457,3 +457,13 @@ footer span{
 .btn-play img{
     max-width: 200px;
 }
+.form{
+    background-color: #F5F5F5;
+}
+.form input, textarea, select{
+    border-color: white!important;
+}
+.btn-enviar{
+    background-color: white;
+    width: 180px;
+}
