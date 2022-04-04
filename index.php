@@ -9,31 +9,28 @@ require_once("tools/navbar.php");
                         <div class="container">
                             <div class="row d-flex justify-content-center">
                                 <h1>EXPLORING WITH YOU <br> <b>FOR THE FUTURE</b></h1>
-                                <div class="">
-                                    <button class="btn btn-primary"> <a href="#">VIEW MORE</a></button>
-                                </div>
                             </div>
                         </div>
                         
                     </div>
                 </div>
             </div>
+           
     </section>
     <?php
     require_once("tools/menu.php");
     ?>
-
-    <!--More than 30 yearss-->
+    <!--MORE THAN 30 YEARS-->
     <div class="container-fluid pt-3" id="fondo-mountains">
         <div class="container" >
             <div class="row d-flex justify-content-center">
                 <div class="row d-flex justify-content-center">
                     <div class="row pt-5 mb-5">
                         <h3 class="text-center"><b>MORE THAN</b></h3>
-                            <h2 class="text-center">30 YEARS OF</h2>
+                            <h2 class="text-center">35 YEARS OF</h2>
                             <h1 class="text-center"><b>EXPERIENCE</b></h1>
                             <p class="text-center">Kluane Drilling Ltd. is a private Canadian <br>
-                            company with more 30 years of <br>
+                            company with more 35 years of <br>
                             experience dedicated to providing high <br>
                             quality drilling services based on technical <br>
                             innovation and human talent. </p>
@@ -45,51 +42,41 @@ require_once("tools/navbar.php");
             </div>
         </div>
     </div>
-    <!--High Quality-->
-    <section class="showcase" id="high-quality">
+     <!--HIGH QUALITY-->
+     <section class="showcase" id="high-quality">
         <header class="navbar navbar-expand-lg">
             <div class="container justify-content-end">
                 <div class="row d-flex justify-content-center">
-                    <div class="text">
-                        <div class="container pt-5" >
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-12 col-lg-4 align-self-center"></div>
-                                <div class="col-12 col-lg-6 align-self-center">
-                                    <div class="row d-flex justify-content-end high-quality">
-                                        <div class="row justify-content-end">
-                                        </div>
-                                        <div class="row pt-2">
-                                            <h3 class="text-end"><b>HIGH QUALITY</b></h3>
-                                            <h3 class="text-end"><b>DRILLING SERVICES</b></h3>
-                                            <p class="text-end">Our services are focused on the <b>highest standards <br>
-                                                of quality, safety, care of environment,</b> good <br>
-                                                community relations and encouranging a <b>safe  and <br>
-                                                healthy work environment.</b></p>
-                                        </div>    
-                                    </div> 
-                                </div>
-                                <div class="col-12 col-lg-2 align-self-center"></div>
+                    <div class="container pt-5" >
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12 col-lg-4 align-self-center"></div>
+                            <div class="col-12 col-lg-6 align-self-center">
+                                <div class="row d-flex justify-content-end high-quality">
+                                    <div class="row pt-2">
+                                        <h1 class="text-end"><b>HIGH QUALITY</b></h1>
+                                        <h1 class="text-end"><b>DRILLING SERVICES</b></h1>
+                                        <p class="text-end">Our services are focused on the <b>highest standards <br>
+                                            of quality, safety, care of environment,</b> good <br>
+                                            community relations and encouranging a <b>safe  and <br>
+                                            healthy work environment.</b></p>
+                                    </div>    
+                                </div> 
                             </div>
+                            <div class="col-12 col-lg-2 align-self-center"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
         <video src="vid/snow-sky.mp4" muted loop autoplay ></video>
-            <div class="container">
-                <div class="row d-flex justify-content-center">
-                    <div class="text">
-                        <div class="container">
-                            <div class="row d-flex justify-content-center">
-                                <img src="img/workers-parallax.png" alt="" class="img-fluid "/>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>  
+            
     </section>
-    <!--Risk analysis and prevention-->
+    <div class="container-fluid">
+        <div class="container-fluid workers-snow">
+            <img src="img/workers-parallax.png" alt="workers-parallax" class="img-fluid position-absolute fixed-bottom"/>
+        </div>
+    </div>
+    <!--RISK ANALYSIS AND PREVENTION-->
     <div class="container-fluid pt-5" id="fondo-bosque">
         <div class="container pt-5" >
             <div class="row d-flex justify-content-center">
@@ -119,7 +106,7 @@ require_once("tools/navbar.php");
             </div>
         </div>
     </div>
-    <!--Enviroment and social impact-->
+    <!--ENVIRONMENT AND SOCIAL IMPACT-->
     <section class="showcase2" id="social-impact">
         <header class="navbar navbar-expand-lg">
             <div class="container justify-content-end">
@@ -166,8 +153,8 @@ require_once("tools/navbar.php");
                 </div>
             </div>  
     </section>
-    <!--Textura verde-->
-    <section class="showcase-texturas">
+     <!--TEXTURA VERDE-->
+     <section class="showcase-texturas">
         <header class="navbar navbar-expand-lg">
             <div class="container justify-content-center">
                 <div class="row d-flex justify-content-center">
@@ -201,7 +188,7 @@ require_once("tools/navbar.php");
                 </div>
             </div>  
     </section>
-    <!--Water Recirculation methods-->
+    <!--WATER RECIRCULATION METHODS-->
     <section class="showcase2">
         <header class="navbar navbar-expand-lg">
             <div class="container justify-content-start">
@@ -247,7 +234,7 @@ require_once("tools/navbar.php");
                 </div>
             </div>  
     </section>
-    <!--Textura Café-->
+    <!--TEXTURA CAFÉ-->
     <section class="showcase-texturas">
         <header class="navbar navbar-expand-lg">
             <div class="container justify-content-center">
@@ -281,8 +268,8 @@ require_once("tools/navbar.php");
                 </div>
             </div>  
     </section>
-    <!--Fondo planeta-->
-    <section class="showcase" id="planeta">
+     <!--OUR PRESENCE-->
+     <section class="showcase" id="planeta">
         <header class="navbar navbar-expand-lg">
             <div class="container pt-5" >
                 <div class="row d-flex justify-content-center">
@@ -324,7 +311,7 @@ require_once("tools/navbar.php");
            
         </div>
            
-    </section>
+    </section>  
 
 
 
