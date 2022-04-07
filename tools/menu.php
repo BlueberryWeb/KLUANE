@@ -38,11 +38,11 @@
                             <div class="row idioma">
                                 <div class="col-12 col-lg-12 mt-5">
                                     <a href="#">ESP</a>
-                                    <a href="#">ING</a>
+                                    <a href="#">ENG</a>
                                 </div>
                             </div>
                             <div class="row pt-5">
-                                <ul>
+                                <ul class="menu" data-animation="to-left">
                                     <li class="display-5"> <a href="../index.php">INDEX</a> </li>
                                     <li class="display-5"> <a href="about.php">ABOUT US</a></li>
                                     <li class="display-5"> <a href="drilling.php">DRILLING</a></li>

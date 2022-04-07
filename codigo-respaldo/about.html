@@ -7,7 +7,10 @@
     <script src="https://kit.fontawesome.com/4514d9060c.js" ></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css"/>
-    <title>KLUAN</title>
+    <link rel="shortcut icon" href="img/favicon-kdl.png"/>
+    <link rel="stylesheet" href="css/animate.css">
+
+    <title>KLUANE</title>
 </head>
 <body >
      <!--Video del header-->
@@ -25,7 +28,7 @@
                     <div class="text">
                         <div class="container">
                             <div class="row d-flex justify-content-center">
-                                <h1 >ABOUT <b>US</b></h1>
+                                <h1 class="animacion-titulos">ABOUT <b>US</b></h1>
                             </div>
                         </div>
                         
@@ -45,20 +48,20 @@
         </header>
         <div class="overlay"></div>
         <div class="text">
-            <div class="container pt-5" >
+            <div class="container pt-5 wp-animated" data-animation="fadeInRight" >
                 <div class="row d-flex justify-content-center">
                     <div class="col-12 col-lg-2 align-self-center"></div>
                     <div class="col-12 col-lg-4 aling-self-center pt-5">
                         <div class="row pt-5">
                             <img src="img/Logo-KLUANE-Bco.gif" alt="KLUANE DRILLING LTD" class="img-fluid pt-5" id="logo"/>
-                            <div class="row d-flex justify-content-start">
-                                <div class="col-12 col-lg-12 mt-5">
+                            <div class="row d-flex justify-content-start" >
+                                <div class="col-12 col-lg-12 mt-5 redes-menu">
                                     <div class="d-flex justify-content-start">
                                         <a href="https://www.facebook.com/KluaneDrillingLTD/" target="_blank" rel="noopener noreferrer">
-                                            <img src="img/icono-fb-menu.png" alt="Facebook"/>
+                                            <img src="img/icono-fb-menu.png" alt="Facebook" class="img-fluid" />
                                         </a>
                                         <a href="https://www.instagram.com/kluanedrillingltd/" target="_blank" rel="noopener noreferrer">
-                                            <img src="img/icono-ig-menu.png" alt="Instagram"/>
+                                            <img src="img/icono-ig-menu.png" alt="Instagram" class="img-fluid" />
                                         </a>
                                     </div> 
                                 </div>
@@ -78,12 +81,12 @@
                                 </div>
                             </div>
                             <div class="row pt-5">
-                                <ul>
-                                    <li class="display-5"> <a href="../index.php">INDEX</a> </li>
-                                    <li class="display-5"> <a href="about.php">ABOUT US</a></li>
-                                    <li class="display-5"> <a href="drilling.php">DRILLING</a></li>
-                                    <li class="display-5"> <a href="contact.php"><b>CONTACT</b></a></li>
-                                    <li class="display-5"> <a href="work.php">WORK WITH US</a></li>
+                                <ul class="menu" data-animation="to-left">
+                                    <li class="display-5"> <a href="index.html">INDEX</a> </li>
+                                    <li class="display-5"> <a href="about.html">ABOUT US</a></li>
+                                    <li class="display-5"> <a href="drilling.html">DRILLING</a></li>
+                                    <li class="display-5"> <a href="contact.html"><b>CONTACT</b></a></li>
+                                    <li class="display-5"> <a href="work.html">WORK WITH US</a></li>
                                 </ul>
                             </div>    
                         </div> 
@@ -92,30 +95,28 @@
                 </div>
             </div>
         </div>
-            <ul class="social">
-            </ul>
-
     </section>
-    <!--Fondo de montañas pintadas-->
+    <!--FONDO DE MONTAÑAS PINTADAS-->
     <div class="container-fluid" id="fondo-montanas">
-        <div class="container">
+        <div class="container wp-animated-group">
             <div class="row d-flex justify-content-center">
-                <img src="img/Logo-KLUANE-azul.gif" alt="KLUANE DRILLING LTD." class="img-fluid"/>
-                <p class="text-center mb-5">Kluane Drilling Ltd. is a <b>private Canadian company</b> with more than <br>
+                <img src="img/Logo-KLUANE-azul.gif" alt="KLUANE DRILLING LTD." class="img-fluid wp-animated" data-animation="fadeInDown" data-animation-duration="5s"/>
+                <p class="text-center mb-5 wp-animated"  data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s">Kluane Drilling Ltd. is a <b>private Canadian company</b> with more than <br>
                 <b>30 years of experience</b> dedicated to providing high quality drilling <br>
                 services based on <b>technical innovation and human talent.</b></p>
             </div>
         </div>
     </div>
-    <!--Video-->
+    <!--VIDEO-->
     <div class="container-fluid" id="fondo-negro">
         <div class="container">
-            <div class="row">
+            <div class="row wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
                 <div class="col-12 text-center mt-5 mb-5">
                     <div class="container-image d-flex justify-content-center pt-5">
                         <img src="img/thumb-video.jpg" alt="KLUANE VIDEO" id="poster" class="img-fluid img-thumbnail-item imagen-poster"/>
-                        <div class="row d-flex justify-content-center btn-play">
-                            <img src="img//play-button.png" alt="Play" id="btn-play" data-bs-toggle="modal" data-bs-target="#Kluane-video"/>
+                        <div class="row d-flex justify-content-center btn-play hover-play">
+                            <!--<img src="img/click-me.png" alt="Click Me!"/>-->
+                            <img class="top" src="img/play-button.png" alt="Play" id="btn-play" data-bs-toggle="modal" data-bs-target="#Kluane-video"/>
                         </div>
                     </div>
                 </div>
@@ -141,82 +142,84 @@
             </div>
         </div>
     </div>
-    <!--Fondo forest circulos-->
-    <div class="container-fluid" id="fondo-forest">
-        <div class="container pt-5" >
-            <div class="row d-flex justify-content-center">
-                <div class="col-12 col-lg-4 align-self-center"></div>
-                <div class="col-12 col-lg-6 align-self-center">
-                    <div class="row d-flex justify-content-end">
-                        <div class="row pt-2">
-                            <div class="d-flex justify-content-end">
-                                <img src="img/High-quality.gif" alt="HIGH QUALITY DRILLING SERVICES" class="img-fluid circulos"/>
+    <!--FONDO FOREST CIRCULOS-->
+    <section>
+        <div class="container-fluid fondo-forest" id="timeline">
+            <div class="container pt-5" >
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-lg-4 align-self-center"></div>
+                    <div class="col-12 col-lg-6 align-self-center">
+                        <div class="row d-flex justify-content-end wp-animated-group">
+                            <div class="row pt-2">
+                                <div class="d-flex justify-content-end">
+                                    <img src="img/High-quality.gif" alt="HIGH QUALITY DRILLING SERVICES" class="img-fluid circulos wp-animated" data-animation="fadeInDown" data-animation-duration="3s"/>
+                                </div>
+                                <h3 class="text-end wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="3s"><b>HIGH QUALITY</b></h3>
+                                <h3 class="text-end wp-animated" data-animation="fadeInDown" data-animation-delay="0.3s" data-animation-duration="3s"><b>DRILLING SERVICES</b></h3>
+                                <p class="text-end wp-animated" data-animation="fadeInDown" data-animation-delay="0.4s" data-animation-duration="3s">Our mission is to <b>provide exceptional service to <br>
+                                clients</b> in the exploration and mining industry, using <br>
+                                <b>innovative and highly portable equipment</b></p>
+                                <img src="img/Lineas-primera-seccion.png" alt="Linea" class="img-fluid d-none d-sm-none d-md-block wp-animated" id="linea1" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="3s"/>
+    
+                            </div>    
+                        </div> 
+                    </div>
+                    <div class="col-12 col-lg-2 align-self-center"></div>
+                </div>
+                <div class="row d-flex justify-content-center wp-animated-group">
+                    <div class="col-12 col-lg-2 align-self-center"></div>
+                    <div class="col-12 col-lg-4 col-sm-12 aling-self-center">
+                        <div class="row d-flex justify-content-end ">
+                            <div class="row">
+                                <img src="img/Experience-and-talent.gif" alt="EXPERIENCE AND TALENT" class="img-fluid circulos wp-animated" data-animation="fadeInDown" data-animation-duration="3s"/>
                             </div>
-                            <h3 class="text-end"><b>HIGH QUALITY</b></h3>
-                            <h3 class="text-end"><b>DRILLING SERVICES</b></h3>
-                            <p class="text-end">Our mission is to <b>provide exceptional service to <br>
-                            clients</b> in the exploration and mining industry, using <br>
-                            <b>innovative and highly portable equipment</b></p>
-                            <img src="img/Lineas-primera-seccion.png" alt="Linea" class="img-fluid d-none d-sm-none d-md-block" id="linea1"/>
-
-                        </div>    
-                    </div> 
-                </div>
-                <div class="col-12 col-lg-2 align-self-center"></div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-12 col-lg-2 align-self-center"></div>
-                <div class="col-12 col-lg-4 col-sm-12 aling-self-center">
-                    <div class="row d-flex justify-content-end">
-                        <div class="row">
-                            <img src="img/Experience-and-talent.gif" alt="EXPERIENCE AND TALENT" class="img-fluid circulos"/>
-                        </div>
-                        <div class="row pt-2">
-                            <h1><b>EXPERIENCE <br>
-                                AND TALENT</b></h1>
-                                <p>We hae an excellent team of people, who <br>
-                                support our processes every day with their <br>
-                                talent, commitment, training and <br>
-                                experience.</p>
-                                <img src="img/Lineas-segunda-seccion.png" alt="Linea" class="img-fluid d-none d-sm-none d-md-block" id="linea2"/>
-                        </div>
-                    </div> 
-                </div>
-                <div class="col-12 col-lg-4 align-self-center"></div>
-                <div class="col-12 col-lg-2 align-self-center"></div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-12 col-lg-4 align-self-center"></div>
-                <div class="col-12 col-lg-6 align-self-center">
-                    <div class="row d-flex justify-content-center">
-                        <div class="row pt-2">
-                            <div class="d-flex justify-content-center">
-                                <img src="img/Quality-services.gif" alt="QUALITY SERVICES" class="img-fluid circulos"/>
+                            <div class="row pt-2">
+                                <h1 class="wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="3s"><b>EXPERIENCE <br>
+                                    AND TALENT</b></h1>
+                                <p class="wp-animated" data-animation="fadeInDown" data-animation-delay="0.3s" data-animation-duration="3s">We hae an excellent team of people, who <br>
+                                    support our processes every day with their <br>
+                                    talent, commitment, training and <br>
+                                    experience.</p>
+                                <img src="img/Lineas-segunda-seccion.png" alt="Linea" class="img-fluid d-none d-sm-none d-md-block wp-animated" id="linea2" data-animation="fadeInDown" data-animation-delay="0.4s" data-animation-duration="3s"/>
                             </div>
-                            <h3 class="text-center"><b>QUALITY <br>
-                            SERVICES</b></h3>
-                            <p class="text-center">In <b>Kluane Drilling Ltd.</b> we work together with our <br>
-                            excellent people to provide quality services and to <br>
-                            continuosly improve our organization.</p>
-                            
-                        </div>    
-                    </div> 
+                        </div> 
+                    </div>
+                    <div class="col-12 col-lg-4 align-self-center"></div>
+                    <div class="col-12 col-lg-2 align-self-center"></div>
                 </div>
-                <div class="col-12 col-lg-2 align-self-center"></div>
+                <div class="row d-flex justify-content-center wp-animated-group">
+                    <div class="col-12 col-lg-4 align-self-center"></div>
+                    <div class="col-12 col-lg-6 align-self-center">
+                        <div class="row d-flex justify-content-center">
+                            <div class="row pt-2">
+                                <div class="d-flex justify-content-center">
+                                    <img src="img/Quality-services.gif" alt="QUALITY SERVICES" class="img-fluid circulos wp-animated"  data-animation="fadeInDown" data-animation-duration="3s"/>
+                                </div>
+                                <h3 class="text-center wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="3s"><b>QUALITY <br>
+                                SERVICES</b></h3>
+                                <p class="text-center wp-animated" data-animation="fadeInDown" data-animation-delay="0.3s" data-animation-duration="3s">In <b>Kluane Drilling Ltd.</b> we work together with our <br>
+                                excellent people to provide quality services and to <br>
+                                continuosly improve our organization.</p>
+                                
+                            </div>    
+                        </div> 
+                    </div>
+                    <div class="col-12 col-lg-2 align-self-center"></div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <!--WHO WE ARE AND HAVE-->
     <div class="container who-we-have">
-        <div class="row">
+        <div class="row wp-animated-group">
             <div class="col-12 col-lg-2 align-self-center"></div>
             <div class="col-12 col-lg-4 align-self-center">
                 <div class="row pt-5">
-                    <h3><b>WHO WE ARE</b></h3>
+                    <h3 class="wp-animated"  data-animation="fadeInDown" data-animation-duration="3s"><b>WHO WE ARE</b></h3>
                 </div>
-                <img src="img/who-we-are.png" class="card-img-top mt-2" alt="WHO WE ARE"/>
+                <img src="img/who-we-are.png" class="card-img-top mt-2 wp-animated" alt="WHO WE ARE" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="3s"/>
                 <div class="mt-3 mb-5">
-                    <p class="card-text">Kluane Drilling Ltd. is a private Canadian company <br>
+                    <p class="card-text wp-animated" data-animation="fadeInDown" data-animation-delay="0.3s" data-animation-duration="3s">Kluane Drilling Ltd. is a private Canadian company <br>
                     with more than 30 years of experience dedicated <br>
                     to providing high quality drilling services based on <br>
                     technical innovation and human talent.</p>
@@ -224,27 +227,24 @@
             </div>
             <div class="col-12 col-lg-4 align-self-center">
                 <div class="pt-5">
-                    <h3 class="mb-3"><b>WE HAVE</b></h3>
-                    <img src="img/Worker.gif" alt="EXCELLENT TEAM OF PEOPLE" class="img-fluid we-have" id="worker"/>
+                    <h3 class="mb-3 wp-animated"  data-animation="fadeInDown" data-animation-duration="3s"><b>WE HAVE</b></h3>
+                    <img src="img/Worker.gif" alt="EXCELLENT TEAM OF PEOPLE" class="img-fluid we-have wp-animated" id="worker" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="3s"/>
                     <aside>
-                        <b>EXCELLENT TEAM OF PEOPLE</b> <br>
+                        <b class="wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="3s">EXCELLENT TEAM OF PEOPLE</b> <br>
                     </aside>
-                    <p>We have an excellent team of people, who <br>
+                    <p class="wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="3s">We have an excellent team of people, who <br>
                         support our processes every day with their <br>
                         talent, commitment, training and experience.</p>
 
-                        <img src="img/Minimal.gif" alt="EXCELLENT TEAM OF PEOPLE" class="img-fluid we-have" id="minimal"/>
+                        <img src="img/Minimal.gif" alt="EXCELLENT TEAM OF PEOPLE" class="img-fluid we-have wp-animated" id="minimal" data-animation="fadeInDown" data-animation-delay="0.3s" data-animation-duration="3s"/>
                     <aside>
-                        <b>ENVIRONMENTAL CARE</b> <br>
+                        <b class="wp-animated" data-animation="fadeInDown" data-animation-delay="0.3s" data-animation-duration="3s">ENVIRONMENTAL CARE</b> <br>
                     </aside>
-                    <p class="mb-5">We understand the importance of <br>
+                    <p class="mb-5 wp-animated" data-animation="fadeInDown" data-animation-delay="0.3s" data-animation-duration="3s">We understand the importance of <br>
                     environmental care and good relations with
                     the community and strives to ensure that its 
                     operations are carried out to highest
                     standards and responsible manner.</p>
-                </div>
-                <div class="">
-
                 </div>
             </div>
             <div class="col-12 col-lg-2 align-self-center"></div>
@@ -253,37 +253,38 @@
     </div>
     <!--ISO-->
     <div class="container-fluid iso">
-        <div class="container justify-content-center">
-            <div class="row d-flex justify-content-center pt-5">
+        <div class="container justify-content-center wp-animated-group">
+            <div class="row d-flex justify-content-center pt-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
                 <img src="img/iso.png" alt="ISO 45001" id="icono-iso"/>
             </div>
             <div class="row d-flex justify-content-center pt-4">
-                <p ><b>Kluane Drilling Ltd. is committed to the "Injury Free Meters"</b> <br>
+                <h5 class="wp-animated"  data-animation="fadeInDown" data-animation-delay="0.3s" data-animation-duration="5s"><b>Kluane Drilling Ltd. is committed to the "Injury Free Meters"</b> <br>
                 philosophy throughout its operations. We adopted <br>
                 internationally recognized safety standards such as <b>ISO 45001 <br>
                 certification</b> in each country where it operates in order to <b>fulfill <br>
-                its commitment to the health and safety of all its workers.</b></p>
-                <p class="mb-5">This international standard ensures that the performance of the <br>
+                its commitment to the health and safety of all its workers.</b></h5>
+                
+                <h5 class="mb-5 wp-animated"  data-animation="fadeInDown" data-animation-delay="0.6s" data-animation-duration="5s">This international standard ensures that the performance of the <br>
                 company <b>matches the high levels of safety performance of <br>
-                the services we supply.</b></p>
+                the services we supply.</b></h5>
             </div>
         </div>
     </div>
-    <!--Environmental impact and social development-->
-    <section class="showcase-enviroment">
+    <!--ENVIRONMENTAL IMPACT AND SOCIAL DEVELOPMENT-->
+    <section class="showcase-enviroment" id="timeline">
         <video src="vid/fondo-bosque.mp4" muted loop autoplay ></video>
             <div class="container">
                 <div class="row d-flex justify-content-center">
-                    <div class="container pt-5 environment">
+                    <div class="container pt-5 environment" >
                         <div class="row text pt-5">
                             <div class="col-12 col-lg-2 align-self-center"></div>
-                                <div class="col-12 col-lg-4 align-self-center pt-5">
-                                    <div class="card" id="card">
+                                <div class="col-12 col-lg-4 align-self-center pt-5 wp-animated-group"  >
+                                    <div class="card wp-animated" id="card" data-animation="fadeInDown" data-animation-duration="5s">
                                         <div class="card-body">
-                                            <img src="img/Environment.gif" alt=" ENVIRONMENTAL IMPACT" class="img-fluid"/>
+                                            <img src="img/Environment.gif" alt=" ENVIRONMENTAL IMPACT" class="img-fluid wp-animated" data-animation="fadeInDown" data-animation-delay="0.6s" data-animation-duration="5s"/>
                                             <div class="contenido">
-                                                <h3 class="card-title text-start"><b>ENVIRONMENTAL <br> IMPACT</b></h3>
-                                                <p class="card-text text-start pt-2">Kluane Drilling Ltd. understands <br>
+                                                <h3 class="card-title text-start wp-animated" data-animation="fadeInDown" data-animation-delay="0.7s" data-animation-duration="5s"><b>ENVIRONMENTAL <br> IMPACT</b></h3>
+                                                <p class="card-text text-start pt-2 wp-animated" data-animation="fadeInDown" data-animation-delay="0.8s" data-animation-duration="5s">Kluane Drilling Ltd. understands <br>
                                                 the <b>importance of environmental <br>
                                                 care</b> and strives to ensure that its <br>
                                                 operations are carried out to the <br>
@@ -295,13 +296,13 @@
                                         </div>
                                       </div>
                                 </div>
-                                <div class="col-12 col-lg-4 align-self-center pt-5">
-                                    <div class="card" id="card">
+                                <div class="col-12 col-lg-4 align-self-center pt-5 wp-animated-group" data-animation="fadeInRight">
+                                    <div class="card wp-animated" id="card" data-animation="fadeInDown" data-animation-duration="5s">
                                         <div class="card-body">
-                                            <img src="img/Worker-bco.gif" alt="SOCIAL DEVELOPMENT" class="img-fluid"/>
+                                            <img src="img/Worker-bco.gif" alt="SOCIAL DEVELOPMENT" class="img-fluid wp-animated" data-animation="fadeInDown" data-animation-delay="0.6s" data-animation-duration="5s"/>
                                             <div class="contenido">
-                                                <h3 class="card-title text-start"><b>SOCIAL <br> DEVELOPMENT</b></h3>
-                                                <p class="card-text text-start pt-2"><b>Kluane Drilling Ltd.</b> strives to <br>
+                                                <h3 class="card-title text-start wp-animated" data-animation="fadeInDown" data-animation-delay="0.7s" data-animation-duration="5s"><b>SOCIAL <br> DEVELOPMENT</b></h3>
+                                                <p class="card-text text-start pt-2 wp-animated" data-animation="fadeInDown" data-animation-delay="0.8s" data-animation-duration="5s"><b>Kluane Drilling Ltd.</b> strives to <br>
                                                 ensure to have good relations <br>
                                                 with the community, with the <br>
                                                 aim of gives priority to <b>direct <br>
@@ -323,14 +324,14 @@
     <!--RISK ANALYSIS AND PREVENTION-->
     <div class="container risk">
         <div class="row pt-5">
-            <div class="col-12 col-lg-6 col-md-12 col-sm-12 aling-self-center">
-                <img src="img/risk.png" alt="RISK ANALYSIS AND PREVENTION" class="img-fluid img-thumbnail-item2"/>
+            <div class="col-12 col-lg-6 col-md-12 col-sm-12 aling-self-center wp-animated-group">
+                <img src="img/risk.png" alt="RISK ANALYSIS AND PREVENTION" class="img-fluid img-thumbnail-item2 wp-animated" data-animation="fadeInDown" data-animation-duration="5s"/>
             </div>
-            <div class="col-12 col-lg-6 col-md-12 col-sm-12 aling-self-center">
-                    <img src="img/Thunder.gif" alt="RISK ANALYSIS AND PREVENTION" id="icono"/>
-                    <h2><b>RISK ANALYSIS <br>
+            <div class="col-12 col-lg-6 col-md-12 col-sm-12 aling-self-center wp-animated-group">
+                    <img src="img/Thunder.gif" alt="RISK ANALYSIS AND PREVENTION" id="icono" class="img-fluid wp-animated" data-animation="fadeInDown" data-animation-duration="5s"/>
+                    <h2 class="wp-animated" data-animation="fadeInDown" data-animation-delay="0.6s" data-animation-duration="5s"><b>RISK ANALYSIS <br>
                     AND PREVENTION</b></h2>
-                    <p>All <b>Kluane Drilling Ltd.</b> personnel receive <br>
+                    <p class="wp-animated" data-animation="fadeInDown" data-animation-delay="0.8s" data-animation-duration="5s">All <b>Kluane Drilling Ltd.</b> personnel receive <br>
                     continuos training under international <br>
                     standards and best practices in the industry, <br>
                     with special emphasis on <b>risk analysis and <br>
@@ -348,12 +349,12 @@
                 <div class="row d-flex justify-content-center">
                     <div class="text">
                         <div class="container">
-                            <div class="row d-flex justify-content-center">
-                                <div class="row d-flex justify-content-center pt-5">
-                                    <img src="img/sustainability.png" alt="HIGH MOBILITY" id="icono" class="img-fluid"/>
+                            <div class="row d-flex justify-content-center wp-animated-group">
+                                <div class="row d-flex justify-content-center pt-5 ">
+                                    <img src="img/sustainability.png" alt="HIGH MOBILITY" id="icono" class="img-fluid wp-animated" data-animation="fadeInDown" data-animation-duration="5s"/>
                                 </div>
-                                <h2><b>SUSTAINABILITY</b></h2>
-                                <p><b>Our approach to Sustainability and Corporate Responsability</b> <br>
+                                <h2 class="wp-animated" data-animation="fadeInDown" data-animation-delay="0.4s" data-animation-duration="5s"><b>SUSTAINABILITY</b></h2>
+                                <p class="wp-animated" data-animation="fadeInDown" data-animation-delay="0.6s" data-animation-duration="5s"><b>Our approach to Sustainability and Corporate Responsability</b> <br>
                                 Kluane Drilling Ltd. understands that long-term success for us and our <br>
                                 clients is only possible if we work sustainability in a responsible and <br>
                                 respectful manner, and adopt the principles of E.S.G.</p>
@@ -364,10 +365,10 @@
             </div> 
     </section>
     <div class="container social-governance">
-        <div class="row">
+        <div class="row wp-animated-group">
             <div class="col-12 col-lg-4 aling-self-center">
-                <div class="card">
-                    <img src="img/social.jpg" class="card-img-top img-thumbnail img-fluid" alt="SOCIAL"/>
+                <div class="card wp-animated" data-animation="zoomIn" data-animation-duration="5s">
+                    <img src="img/social.jpg" class="card-img-top img-thumbnail img-fluid zoom" alt="SOCIAL"/>
                     <div class="card-body">
                         <h2><b> SOCIAL</b></h2>
                       <p class="card-text">In our business, social sustainability <br>
@@ -380,8 +381,8 @@
                   </div>
             </div>
             <div class="col-12 col-lg-4 aling-self-center">
-                <div class="card">
-                    <img src="img/environment.jpg" class="card-img-top img-thumbnail img-fluid" alt="ENVIRONMENT"/>
+                <div class="card wp-animated" data-animation="zoomIn" data-animation-duration="5s" data-animation-delay="1s">
+                    <img src="img/environment.jpg" class="card-img-top img-thumbnail img-fluid zoom" alt="ENVIRONMENT"/>
                     <div class="card-body">
                         <h2><b>ENVIRONMENT</b></h2>
                       <p class="card-text">We understand the importance of the <br>
@@ -394,8 +395,8 @@
                   </div>
             </div>
             <div class="col-12 col-lg-4 aling-self-center">
-                <div class="card">
-                    <img src="img/governance.jpg" class="card-img-top img-thumbnail img-fluid" alt="GOVERNANCE"/>
+                <div class="card wp-animated" data-animation="zoomIn" data-animation-duration="5s" data-animation-delay="2s">
+                    <img src="img/governance.jpg" class="card-img-top img-thumbnail img-fluid zoom" alt="GOVERNANCE"/>
                     <div class="card-body">
                         <h2><b>GOVERNANCE</b></h2>
                       <p class="card-text">In Kluane Drilling Ltd. our shared <br>
@@ -414,15 +415,15 @@
     <!--OUR GLOBAL PRESENCE-->
     <div class="container-fluid" id="fondo-azul">
         <div class="container">
-            <div class="row d-flex justify-content-center">
-                <img src="img/Logo-KLUANE-Bco.gif" alt="KLUANE DRILLING LTD." id="logo"/>
-                <h1 class="text-center">OUR GLOBAL <b>PRESENCE</b></h1>
-                <p class="text-center">Kluane Drilling Ltd. continues to expand its operations and has <br>
+            <div class="row d-flex justify-content-center wp-animated-group">
+                <img src="img/Logo-KLUANE-Bco.gif" alt="KLUANE DRILLING LTD." id="logo" class="wp-animated img-fluid" data-animation="fadeInDown" data-animation-duration="5s"/>
+                <h1 class="text-center wp-animated" data-animation="fadeInDown" data-animation-delay="0.4s" data-animation-duration="5s">OUR GLOBAL <b>PRESENCE</b></h1>
+                <p class="text-center wp-animated" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="5s">Kluane Drilling Ltd. continues to expand its operations and has <br>
                 archieved international recognition in the industry thanks to the <br>
                 efforts of its subsidiaries in the following countries:</p>
             </div>
-            <div class="row">
-                <nav class="justify-content-center">
+            <div class="row wp-animated-group">
+                <nav class="justify-content-center wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
                     <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
                       <button class="nav-link active" id="nav-north-tab" data-bs-toggle="tab" data-bs-target="#nav-north" type="button" role="tab" aria-controls="nav-north" aria-selected="true">NORTH AMÉRICA</button>
                       <button class="nav-link" id="nav-central-tab" data-bs-toggle="tab" data-bs-target="#nav-central" type="button" role="tab" aria-controls="nav-central" aria-selected="false">CENTRAL & SOUT AMERICA</button>
@@ -430,7 +431,14 @@
                     </div>
                   </nav>
                   <div class="tab-content justify-content-center" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-north" role="tabpanel" aria-labelledby="nav-north-tab">...</div>
+                    <div class="tab-pane fade show active" id="nav-north" role="tabpanel" aria-labelledby="nav-north-tab" >
+                        <div class="row d-flex justify-content-center pt-5 pb-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
+                            <video muted autoplay loop class="video-bg_video" style="width: 1200px;">
+                                <source src="vid/Mapa_V02.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        
+                    </div>
                     <div class="tab-pane fade" id="nav-central" role="tabpanel" aria-labelledby="nav-central-tab">...</div>
                     <div class="tab-pane fade" id="nav-africa" role="tabpanel" aria-labelledby="nav-africa-tab">...</div>
                   </div>
@@ -441,14 +449,14 @@
 
     <footer>
         <div class="container">
-            <div class="row">
+            <div class="row wp-animated-group">
                 <div class="row d-flex justify-content-center">
                     <div class="col-12 col-lg-2 align-self-center"></div>
                     <div class="col-12 col-lg-3 aling-self-center">
                         <div class="row pt-5">
-                            <img src="img/logo-footer.png" alt="KLUANE DRILLING LTD" class="img-fluid" id="logo"/>
+                            <img src="img/logo-footer.png" alt="KLUANE DRILLING LTD" class="img-fluid wp-animated" id="logo" data-animation="fadeInDown" data-animation-duration="5s"/>
                             <div class="row d-flex justify-content-start">
-                                <div class="col-12 col-lg-12 mt-3">
+                                <div class="col-12 col-lg-12 mt-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s">
                                     <span>
                                         Kluane Drilling Ltd. is a private <br>
                                         Canadian company providing high <br>
@@ -465,14 +473,14 @@
                             <div class="row">
                                 <div class="col-12 col-lg-12 mt-5 menu-footer">
                                     <div class="title">
-                                        <h5> <b>MENU</b></h5>
+                                        <h5 class="wp-animated" data-animation="fadeInDown" data-animation-duration="5s"> <b>MENU</b></h5>
                                     </div>
                                     <ul class="site-menu">
-                                        <li><a href="#"><h5>INDEX</h5></a></li>
-                                        <li><a href="#"><h5>ABOUT</h5></a></li>
-                                        <li><a href="#"><h5>DRILLING</h5></a></li>
-                                        <li><a href="#"><h5>CONTACT</h5></a></li>
-                                        <li><a href="#"><h5>WORK WITH US</h5></a></li>
+                                        <li class="wp-animated" data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s"><a href="index.html"><h5>INDEX</h5></a></li>
+                                        <li class="wp-animated" data-animation="fadeInDown" data-animation-delay="2s" data-animation-duration="5s"><a href="about.html"><h5>ABOUT</h5></a></li>
+                                        <li class="wp-animated" data-animation="fadeInDown" data-animation-delay="3s" data-animation-duration="5s"><a href="drilling.html"><h5>DRILLING</h5></a></li>
+                                        <li class="wp-animated" data-animation="fadeInDown" data-animation-delay="4s" data-animation-duration="5s"><a href="contact.html"><h5>CONTACT</h5></a></li>
+                                        <li class="wp-animated" data-animation="fadeInDown" data-animation-delay="5s" data-animation-duration="5s"><a href="work.html"><h5>WORK WITH US</h5></a></li>
                                     </ul>
                                 </div>
                             </div> 
@@ -483,15 +491,15 @@
                             <div class="row">
                                 <div class="col-12 col-lg-12 mt-5 menu-footer">
                                     <div class="title">
-                                        <h5><b>SITE</b> </h5>
+                                        <h5 class="wp-animated" data-animation="fadeInDown" data-animation-duration="5s"><b>SITE</b> </h5>
                                     </div>
                                     <ul class="site-menu">
-                                        <li><a href="https://kluanedrilling.ca/privacypolicy.php"><h5>PRIVACY NOTICE</h5></a></li>
-                                        <li><a href="https://kluanedrilling.ca/privacy.php"><h5>HSE POLICY</h5></a></li>
-                                        <li><a href="https://kluanedrilling.ca/termsconditions.php"><h5>TERMS AND CONDITIONS</h5></a></li>
-                                        <li><a href="https://kluanedrilling.ca/cookiespolicy.php"><h5>COOKIE POLICY</h5></a></li>
-                                        <li><a href="#contacto"> <h5>SUPPORT</h5></a></li>
-                                        <li><a href="https://kluanedrilling.ca/privacy.php"><h5>PRIVACY POLICY</h5></a></li>
+                                        <li class="wp-animated" data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s"><a href="https://kluanedrilling.ca/privacypolicy.php"><h5>PRIVACY NOTICE</h5></a></li>
+                                        <li class="wp-animated" data-animation="fadeInDown" data-animation-delay="2s" data-animation-duration="5s"><a href="https://kluanedrilling.ca/privacy.php"><h5>HSE POLICY</h5></a></li>
+                                        <li class="wp-animated" data-animation="fadeInDown" data-animation-delay="3s" data-animation-duration="5s"><a href="https://kluanedrilling.ca/termsconditions.php"><h5>TERMS AND CONDITIONS</h5></a></li>
+                                        <li class="wp-animated" data-animation="fadeInDown" data-animation-delay="4s" data-animation-duration="5s"><a href="https://kluanedrilling.ca/cookiespolicy.php"><h5>COOKIE POLICY</h5></a></li>
+                                        <li class="wp-animated" data-animation="fadeInDown" data-animation-delay="5s" data-animation-duration="5s"><a href="#contacto"> <h5>SUPPORT</h5></a></li>
+                                        <li class="wp-animated" data-animation="fadeInDown" data-animation-delay="6s" data-animation-duration="5s"><a href="https://kluanedrilling.ca/privacy.php"><h5>PRIVACY POLICY</h5></a></li>
                                     </ul> 
                                 </div>
                             </div> 
@@ -499,10 +507,10 @@
                     </div>
                     <div class="col-12 col-lg-2 align-self-center">
                         <div class="row d-flex justify-content-end mb-5">
-                            <h5>Follow us</h5>
+                            <h5 class="wp-animated" data-animation="fadeInDown" data-animation-duration="5s">Follow us</h5>
                             <div class="col-12 col-lg-12 mt-5 redes">
-                                <a href="https://www.facebook.com/KluaneDrillingLTD/" target="_blank" rel="noopener noreferrer"><img src="img/icono-fb-footer.png" alt="Facebook" class="img-fluid"/></a>
-                                <a href="https://www.instagram.com/kluanedrillingltd/" target="_blank" rel="noopener noreferrer"><img src="img/icono-ig-footer.png" alt="Instagram" class="img-fluid"/></a>
+                                <a href="https://www.facebook.com/KluaneDrillingLTD/" target="_blank" rel="noopener noreferrer"><img src="img/icono-fb-footer.png" alt="Facebook" class="img-fluid wp-animated" data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s"/></a>
+                                <a href="https://www.instagram.com/kluanedrillingltd/" target="_blank" rel="noopener noreferrer"><img src="img/icono-ig-footer.png" alt="Instagram" class="img-fluid wp-animated" data-animation="fadeInDown" data-animation-delay="2s" data-animation-duration="5s"/></a>
                             </div>
                         </div> 
                     </div>
@@ -514,29 +522,23 @@
             <div class="row">
                 <div class="col-12 col-lg-2 align-self-center"></div>
                 <div class="col-12 col-lg-4 align-self-center mb-4 pt-2">
-                    <h5>© 2022 KLUANE DRILLING LTD. ALL RIGHTS RESERVED.</h5>
+                    <h5 class="wp-animated">© 2022 KLUANE DRILLING LTD. ALL RIGHTS RESERVED.</h5>
                 </div>
                 <div class="col-12 col-lg-3 align-self-center"></div>
                 <div class="col-12 col-lg-3 align-self-center mb-4">
-                    <img src="img/materialized-blueberry.gif" alt="MATERIALIZED BY Blueberry" class="img-fluid"/>
+                    <img src="img/materialized-blueberry.gif" alt="MATERIALIZED BY Blueberry" class="img-fluid wp-animated"/>
                 </div>
             </div>
         </div>
     </footer>
 
     
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
-    <script>
-        function menu(){
-            document.getElementById('menu').style.display = 'block';
-            document.getElementById('showcase').style.display = 'none';
-        }
-        function cerrar(){
-            document.getElementById('showcase').style.display = 'flex';
-            document.getElementById('menu').style.display = 'none';
-        }
-    </script>
+    <script src="lib/easy-waypoint-animate.js"></script>
+    <script src="lib/jquery.waypoints.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
