@@ -1,4 +1,4 @@
-    <footer>
+<footer>
         <div class="container">
             <div class="row wp-animated-group">
                 <div class="row d-flex justify-content-center">
@@ -22,8 +22,8 @@
                     <div class="col-12 col-lg-2 align-self-center">
                         <div class="row d-flex justify-content-end">
                             <div class="row">
-                                <div class="col-12 col-lg-12 mt-5 menu-footer">
-                                    <div class="title">
+                                <div class="col-12 col-lg-12  menu-footer">
+                                    <div class="title" id="tit-men">
                                         <h5 class="wp-animated" data-animation="fadeInDown" data-animation-duration="5s"> <b>MENU</b></h5>
                                     </div>
                                     <ul class="site-menu">
@@ -56,9 +56,9 @@
                             </div> 
                         </div> 
                     </div>
-                    <div class="col-12 col-lg-2 align-self-center">
+                    <div class="col-12 col-lg-2 align-self-center follow-us">
                         <div class="row d-flex justify-content-end mb-5">
-                            <h5 class="wp-animated" data-animation="fadeInDown" data-animation-duration="5s">Follow us</h5>
+                            <h5 class="wp-animated color-texto" data-animation="fadeInDown" data-animation-duration="5s"><b>Follow us</b> </h5>
                             <div class="col-12 col-lg-12 mt-5 redes">
                                 <a href="https://www.facebook.com/KluaneDrillingLTD/" target="_blank" rel="noopener noreferrer"><img src="img/icono-fb-footer.png" alt="Facebook" class="img-fluid wp-animated" data-animation="fadeInDown" data-animation-delay="1s" data-animation-duration="5s"/></a>
                                 <a href="https://www.instagram.com/kluanedrillingltd/" target="_blank" rel="noopener noreferrer"><img src="img/icono-ig-footer.png" alt="Instagram" class="img-fluid wp-animated" data-animation="fadeInDown" data-animation-delay="2s" data-animation-duration="5s"/></a>
@@ -73,11 +73,11 @@
             <div class="row">
                 <div class="col-12 col-lg-2 align-self-center"></div>
                 <div class="col-12 col-lg-4 align-self-center mb-4 pt-2">
-                    <h5 class="wp-animated">© 2022 KLUANE DRILLING LTD. ALL RIGHTS RESERVED.</h5>
+                    <h5 class="">© 2022 KLUANE DRILLING LTD. ALL RIGHTS RESERVED.</h5>
                 </div>
                 <div class="col-12 col-lg-3 align-self-center"></div>
                 <div class="col-12 col-lg-3 align-self-center mb-4">
-                    <img src="img/materialized-blueberry.gif" alt="MATERIALIZED BY Blueberry" class="img-fluid wp-animated"/>
+                    <img src="img/materialized-blueberry.gif" alt="MATERIALIZED BY Blueberry" class="img-fluid"/>
                 </div>
             </div>
         </div>

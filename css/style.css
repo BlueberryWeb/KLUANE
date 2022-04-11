@@ -322,6 +322,10 @@ li{
     background-color: #122048;
     color: white;
 }
+.follow-us{
+    margin-top: -100px;
+    color: #464646!important;
+}
 .iso{
     width: 100%;
     height: auto;
@@ -451,6 +455,9 @@ footer span{
 .fondo-footer h5{
     font-size: 0.7rem;
 }
+#tit-men{
+    margin-top: -25px;
+}
 .title{
     margin-bottom: 22px;
 }
@@ -526,7 +533,7 @@ footer span{
     border-bottom: 0;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    background-color: rgba(255, 255, 255, 0.1)!important;
+    background-color: rgba(255, 255, 255, 0.3)!important;
 }
 .modal-content, .modal-header{
     background: none;
@@ -727,7 +734,7 @@ footer span{
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 1140px;
+    width: 100%;
 }
 
 .slider-w::before, .slider-w::after {
@@ -904,6 +911,12 @@ hr {
     .showcase-work header{
         padding: 0;
     }
+    #tit-men{
+        margin-top: 10px;
+    }
+    .follow-us{
+        margin-top: 0;
+    }
 }
 @media screen and (max-width:400px){
     .text h1{
@@ -987,6 +1000,12 @@ hr {
     .showcase-work header{
         padding: 0;
     }
+    #tit-men{
+        margin-top: 20px;
+    }
+    .follow-us{
+        margin-top: 0;
+    }
 }
 @media screen and (max-width:500px){
     .text h1{
@@ -1069,6 +1088,12 @@ hr {
     .showcase-work header{
         padding: 0;
     }
+    #tit-men{
+        margin-top: 20px;
+    }
+    .follow-us{
+        margin-top: 0;
+    }
 }
 @media screen and (max-width:600px){
     .text h1{
@@ -1096,8 +1121,7 @@ hr {
     }
     .index h1{
         padding: 0;
-        margin-top: 30px;
-        
+        margin-top: 30px;  
     }
     .showcase-enviroment{
         padding: 0;
@@ -1119,6 +1143,12 @@ hr {
     }
     .showcase-work header{
         padding: 0;
+    }
+    #tit-men{
+        margin-top: 20px;
+    }
+    .follow-us{
+        margin-top: 0;
     }
 }
 @media screen and (max-width:700px){
@@ -1187,6 +1217,12 @@ hr {
     }
     .showcase-work header{
         padding: 0;
+    }
+    #tit-men{
+        margin-top: 20px;
+    }
+    .follow-us{
+        margin-top: 0;
     }
 }
 @media screen and (max-width:800px){
@@ -1270,6 +1306,12 @@ hr {
     }
     .showcase-work header{
         padding: 0;
+    }
+    #tit-men{
+        margin-top: 20px;
+    }
+    .follow-us{
+        margin-top: 0;
     }
 }
 @media screen and (max-width:990px){
@@ -1360,5 +1402,11 @@ hr {
     }
     .showcase-work header{
         padding: 0;
+    }
+    #tit-men{
+        margin-top: 20px;
+    }
+    .follow-us{
+        margin-top: 0;
     }
 }

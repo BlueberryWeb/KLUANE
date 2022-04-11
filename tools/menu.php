@@ -59,4 +59,4 @@
             <ul class="social">
             </ul>
 
-    </section>
+</section>
