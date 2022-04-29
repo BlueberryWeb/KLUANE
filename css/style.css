@@ -1,0 +1,1450 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#logo-header{
+    max-width: 100px;
+}
+.high-quality{
+    color: #464646;
+}
+.color-texto{
+    color: #464646;
+}
+#high-quality{
+    color: #464646;
+    min-height: 120vh;
+}
+.workers-snow{
+    position: relative;
+    top: 160px;
+    z-index: 3;
+    width: 100%;
+}
+.showcase-menu{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 90vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/textura-fondo-menu.jpg");
+
+}
+.showcase-menu header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.showcase{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 90vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+}
+.showcase header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.showcase video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.overlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%; 
+}
+.text{
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+.text h1{
+    font-size: 4.2rem;
+}
+/*TEXTURAS 40vh*/
+.showcase-texturas{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 40vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+}
+.showcase-texturas header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.showcase-texturas video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+/*FIN TEXTURAS*/
+/*OTROS FONDOS 70vh*/
+.showcase2{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 70vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+}
+.showcase2 header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.showcase2 video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.showcase-enviroment{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 110vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+}
+
+.showcase-enviroment video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.showcase-innovation{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 140vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+}
+.showcase-innovation header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.showcase-innovation video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+/*FIN DE LOS OTROS FONDOS*/
+.fa-xmark{
+    color: white;
+    font-size: 2rem;
+}
+.fa-bars{
+    color: white;
+    font-size: 2rem;
+}
+.btn-primary{
+    border-color: #fff;
+    background-color: transparent;
+    width: 150px;
+    border-radius: 11px;
+}
+.btn-primary:hover{
+    background: none;
+    color: #fff;
+    border-color: #fff;
+}
+.close{
+    margin-right: 40px;
+}
+#menu{
+    display: none;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+#menu li{
+    list-style: none;
+    text-align: right;
+    line-height: 80px;
+}
+.idioma{
+    text-align: right;
+}
+.idioma a{
+    margin-left: 25px;
+}
+.icono-pais{
+    margin-right: 15px; 
+    max-width: 60px;
+    float: left;
+    margin-bottom: 250px;
+}
+#paises h1{
+    font-size: 2.5rem;
+}
+/*FONDOS COMIENZA*/
+#fondo-bosque{
+    width: 100%;
+    height: 80vh;
+    background-image: url("../img/forest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #464646;
+}
+#fondo-mountains{
+    width: 100%;
+    height: 80vh;
+    background-image: url("../img/photo-mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fondo-montanas{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/painting.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #464646;
+}
+.fondo-forest{
+    width: 100%;
+    height: 220vh;
+    background-image: url("../img/vertical-forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.fondo-footer{
+    background-color: #122048;
+    color: white;
+}
+.follow-us{
+    margin-top: -100px;
+    color: #464646!important;
+}
+.iso{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/iso.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.innovation{
+    width: 100%;
+    height: 140vh;
+    background-image: url("../img/bg-capacity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.textura-azul{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/blue-texture.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.textura-negra{
+    width: 100%;
+    height: 110vh;
+    background-image: url("../img/black-texture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.fondo-graficas{
+    width: 100%;
+    height: 140vh;
+    background-image: url("../img/bg-capacity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.showcase-work{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 90vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+    background-image: url("../img/Header-works.jpg");
+}
+.showcase-work header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/*TERMINA FONDOS*/
+#linea1{
+    max-width: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+#linea2{
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+#linea-v{
+    max-width: 250px;
+    margin-left: -230px;
+    margin-top: -40px;
+}
+.fondo-graficas img{
+    width: 100%;
+    height: 100%;
+}
+.circulos{
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+.we-have{
+    max-width: 50px;
+    float: left;
+    margin-right: 15px; 
+}
+#worker{
+    margin-bottom: 80px;
+}
+#minimal{
+    margin-bottom: 120px;
+}
+#fondo-montanas img{
+    margin-top: 70px;
+    max-width: 180px;
+}
+#fondo-mountains{
+    color: #546884;
+}
+#fondo-mountains img{
+    max-width: 200px;
+    margin-top: 30px;
+}
+#fondo-mountains p{
+    color: #464646;
+}
+#icono{
+   max-width: 120px; 
+}
+#icono-iso{
+    max-width: 150px;
+}
+footer span{
+    font-size: 0.8rem;
+}
+.fondo-footer h5{
+    font-size: 0.7rem;
+}
+#tit-men{
+    margin-top: -25px;
+}
+.title{
+    margin-bottom: 22px;
+}
+.site-menu{
+   list-style: none; 
+   padding-left: 0!important;
+}
+.menu-footer h5{
+    font-size: 0.9rem;
+    line-height: 30px;
+    color: #464646;
+}
+.redes-menu img{
+    margin-left: 20px;
+}
+.redes img{
+    max-width: 30px;
+}
+#logo{
+    max-width: 220px;
+}
+.showcase-menu span{
+    font-size: 0.6rem;
+}
+.card{
+    background: transparent;
+    border-color: white;
+}
+.environment{
+    width: 100%;
+    margin-bottom: 100px;
+}
+#card img{
+    margin-top: 20px;
+    max-width: 80px;
+    margin-bottom: 40px;
+}
+.contenido{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.contenido h3{
+    font-size: 2.1rem;
+}
+.contenido p{
+    font-size: 1.1rem;
+}
+.img-thumbnail-item2{
+    padding: 0.25rem;
+    background: #fff;
+    max-width: 80%;
+}
+.risk{
+    margin-bottom: 80px;
+    color: #464646;
+}
+.who-we-have{
+    color: #464646;
+}
+#fondo-azul{
+    background-color: #122048;
+    color: white;
+}
+#fondo-negro{
+    background-color: #000;
+}
+#fondo-azul .nav-link{
+    border-color: white;
+    border-radius: 0;
+    color: white;
+}
+.nav-tabs{
+    border-bottom: 0;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.3)!important;
+}
+.modal-content, .modal-header{
+    background: none;
+    border: none;
+}
+.btn-close{
+    color: #fff!important;
+}
+#poster{
+    max-width: 800px;
+}
+.container-image{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+.imagen-poster{
+    width: 100%;
+    height: auto;
+}
+.img-thumbnail-item{
+    padding: 0.25rem;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 0.25rem;
+    max-width: 70%;
+}
+.btn-play{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    widows: 100%;
+    background-color: transparent;
+}
+#btn-play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    cursor: pointer;
+    z-index: 2;
+}
+.btn-play img{
+    max-width: 200px;
+}
+.hover-play img {
+  position: absolute;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.hover-play img.top:hover {
+  opacity: 0;
+}
+.form{
+    background-color: #F5F5F5;
+}
+/*.form input, textarea, select{
+    border-color: white!important;
+}*/
+.btn-enviar{
+    background-color: white;
+    width: 180px;
+}
+#contact a{
+    color: black;
+}
+#contact p{
+    margin-bottom: 0;
+}
+.fondo-gris{
+    background-color: #F5F5F5;
+}
+#innovation{
+    color: white;
+}
+.fondo-graficas img{
+    max-width: 800px;
+}
+#nav-kd200-tab, #nav-kd600-tab, #nav-kd1000-tab, #nav-kd1700-tab{
+    border-color: white;
+    border-radius: 0;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+ #nav-core-tab, #nav-equipment-tab{
+    border: none;
+    background-color: black!important;
+    border-radius: 0;
+    color: white;
+    font-weight: bold;
+    width: 230px;
+    height: 180px;
+    font-size: 1.2rem;
+}
+#nav-capacity-tab{
+    border: none;
+    background-color: gray;
+    border-radius: 0;
+    color: white;
+    font-weight: bold;
+    width: 230px;
+    height: 180px;
+    font-size: 1.2rem;
+}
+.tit-model h5{
+    font-size: 0.8rem;
+}
+.tit-model h1{
+    font-size: 2.5rem;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+.higher-performance{
+    color: #464646;
+}
+.high-effective{
+    color: #464646;
+    position: relative;
+    top: -50px;
+    left: 0;
+    z-index: 3;
+}
+.social-governance{
+    color: #464646;
+    position: relative;
+    top: -60px;
+    left: 0;
+    z-index: 3;
+}
+/*GALERÍA*/
+.slider {
+    background: white;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slider::before, .slider::after {
+    background: linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+.slider .slide-track {
+    animation: scroll 80s linear infinite;
+    display: flex;
+    width: calc(350px * 8);
+}
+.slider .slide-track:hover {
+    animation-play-state: paused;
+}
+
+.slider .slide {
+    height: 250px;
+    width: 350px;
+} 
+.slide img {
+    position: absolute;
+    transition: opacity 1.5s ease-in-out;
+}
+  
+.slide img.top:hover {
+    opacity: 0;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-350px * 4));
+    }
+}
+/*TERMINA GALERÍA*/
+/*GALERÍA DE TRABAJADORES*/
+.slider-w {
+    background: white;
+    height: 345px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slider-w::before, .slider-w::after {
+    background: linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+}
+
+.slider-w::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+.slider-w::before {
+    left: 0;
+    top: 0;
+}
+.slider-w .slide-track-w {
+    animation: scroll-w 80s linear infinite;
+    display: flex;
+    width: calc(345px * 10);
+}
+.slider-w .slide-track-w:hover {
+    animation-play-state: paused;
+}
+.slider-w .slide-w {
+    height: 386px;
+    width: 345px;
+} 
+.slide-w img {
+      position: absolute;
+    transition: opacity 1.5s ease-in-out;
+}
+.slide-w img.top:hover {
+    opacity: 0;
+}
+@keyframes scroll-w {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-345px * 5));
+    }
+}
+/*TERMINA GALERÍA DE TRABAJADORES*/
+/*ANIMACIÓN MENU*/
+:root {
+    --body-bg-color: #1a1c1d;
+    --text-color: #aaaebc;
+    --hr-color: #26292a;
+    --red: #e74c3c;
+  }
+hr {
+    border-color: var(--hr-color);
+    margin: 20px 0;
+  }
+  .menu a {
+    position: relative;
+    display: block;
+  }
+  
+  .menu a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, 	#fffff2, 	#f9f9f9, #ffff);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .menu a:hover::before {
+    transform: scaleX(1);
+  }
+.menu[data-animation="to-right"] a::before {
+    transform-origin: right;
+  }
+/*TERMINA ANIMACIÓN MENU*/
+/*ANIMACIÓN TÍTULOS*/
+.animacion-titulos{
+    display: inline-block;
+    animation: fadeIn;
+    animation-duration: 7s;
+}
+/*TERMINA ANIMACIÓN DE TÍTULOS*/
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width:300px){
+    .showcase-menu{
+        padding: 0;
+    }
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 90vh;
+    }
+    .showcase2 header{
+        padding: 0;
+    }
+    .showcase-texturas{
+        min-height: 60vh;
+    }
+    .showcase-texturas header{
+        padding: 0;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+    }
+    #fondo-mountains{
+        height: 110vh;
+    }
+    #planeta header{
+        padding: 0;
+    }
+    #planeta{
+        min-height: 140vh;
+    }
+    .showcase header{
+        padding: 0;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px;  
+    }
+    .showcase-enviroment{
+        padding: 0;
+    }
+    #sustainability{
+        padding: 0;
+    }
+    #worker{
+        margin-bottom: 120px;
+    }
+    #minimal{
+        margin-bottom: 170px;
+    }
+    .showcase-innovation{
+        height: 170vh;
+    }
+    .showcase-innovation header{
+        padding: 0;
+    }
+    .textura-azul{
+        height: 230vh;
+    }
+    .fondo-graficas{
+        height: 70vh;
+    }
+    .fondo-graficas img{
+        max-width: 250px;
+    }
+    .showcase-work header{
+        padding: 0;
+    }
+    #tit-men{
+        margin-top: 10px;
+    }
+    .follow-us{
+        margin-top: 0;
+    }
+    .high-effective{
+        top: 0;
+    }
+}
+@media (max-width:400px){
+    .showcase-menu{
+        padding: 0;
+    }
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 90vh;
+    }
+    .showcase2 header{
+        padding: 0;
+    }
+    .showcase-texturas{
+        min-height: 80vh;
+    }
+    .showcase-texturas header{
+        padding: 0;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+    }
+    #fondo-mountains{
+        height: 100vh;
+    }
+    #planeta header{
+        padding: 0;
+    }
+    #planeta{
+        min-height: 140vh;
+    }
+    .showcase header{
+        padding: 0;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px; 
+    }
+    .showcase-enviroment{
+        padding: 0;
+    }
+    #sustainability{
+        padding: 0;
+    }
+    #worker{
+        margin-bottom: 120px;
+    }
+    #minimal{
+        margin-bottom: 170px;
+    }
+    #chile{
+        margin-bottom: 200px;
+    }
+    #menu{
+        padding: 0;
+    }
+    .showcase-innovation{
+        height: 90vh;
+    }
+    .showcase-innovation header{
+        padding: 0;
+    }
+    .textura-azul{
+        height: 230vh;
+    }
+    .fondo-graficas{
+        height: 70vh;
+    }
+    .fondo-graficas img{
+        max-width: 300px;
+    }
+    .showcase-work header{
+        padding: 0;
+    }
+    #tit-men{
+        margin-top: 20px;
+    }
+    .follow-us{
+        margin-top: 0;
+    }
+    .high-effective{
+        top: 0;
+    }
+}
+@media (max-width:500px){
+    .showcase-menu{
+        padding: 0;
+    }
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 70vh;
+    }
+    .showcase2 header{
+        padding: 0;
+    }
+    .showcase-texturas{
+        min-height: 80vh;
+    }
+    .showcase-texturas header{
+        padding: 0;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+        min-height: 90vh;
+    }
+    #fondo-mountains{
+        height: 100vh;
+    }
+    #planeta header{
+        padding: 0;
+    }
+    #planeta{
+        min-height: 140vh;
+    }
+    .showcase header{
+        padding: 0;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px;    
+    }
+    .showcase-enviroment{
+        padding: 0;
+    }
+    #sustainability{
+        padding: 0;
+    }
+    #worker{
+        margin-bottom: 30px;
+    }
+    #minimal{
+        margin-bottom: 80px;
+    }
+    .showcase-innovation header{
+        padding: 0;
+    }
+    .textura-azul{
+        height: 180vh;
+    }
+    .fondo-graficas{
+        height: 140vh;
+    }
+    .fondo-graficas img{
+        max-width: 350px;
+    }
+    .workers-snow{
+        position: relative;
+        top: 40px;
+        z-index: 3;
+        width: 100%;
+    }
+    .showcase-work header{
+        padding: 0;
+    }
+    #tit-men{
+        margin-top: 20px;
+    }
+    .follow-us{
+        margin-top: 0;
+    }
+    .high-effective{
+        top: 0;
+    }
+}
+@media (max-width:600px){
+    .showcase-menu{
+        padding: 0;
+    }
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 90vh;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+    }
+    .showcase header{
+        padding: 0;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px;  
+    }
+    .showcase-enviroment{
+        padding: 0;
+    }
+    #sustainability{
+        padding: 0;
+    }
+    #worker{
+        margin-bottom: 30px;
+    }
+    #minimal{
+        margin-bottom: 80px;
+    }
+    .textura-azul{
+        height: 230vh;
+    }
+    .fondo-graficas{
+        height: 170vh;
+    }
+    .showcase-work header{
+        padding: 0;
+    }
+    #tit-men{
+        margin-top: 20px;
+    }
+    .follow-us{
+        margin-top: 0;
+    }
+}
+@media (max-width:700px){
+    .showcase-menu{
+        padding: 0;
+    }
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 90vh;
+    }
+    .showcase2 header{
+        padding: 0;
+    }
+    .showcase-texturas{
+        min-height: 80vh;
+    }
+    .showcase-texturas header{
+        padding: 0;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+    }
+    #fondo-mountains{
+        height: 100vh;
+    }
+    #planeta header{
+        padding: 0;
+    }
+    #planeta{
+        min-height: 140vh;
+    }
+    .showcase header{
+        padding: 0;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px;   
+    }
+    .showcase-enviroment{
+        padding: 0;
+    }
+    #sustainability{
+        padding: 0;
+    }
+    #worker{
+        margin-bottom: 30px;
+    }
+    #minimal{
+        margin-bottom: 80px;
+    }
+    .textura-azul{
+        height: 230vh;
+    }
+    .fondo-graficas{
+        height: 70vh;
+    }
+    .showcase-work header{
+        padding: 0;
+    }
+    #tit-men{
+        margin-top: 20px;
+    }
+    .follow-us{
+        margin-top: 0;
+    }
+    .high-effective{
+        top: 0;
+    }
+}
+@media (max-width:800px){
+    .showcase-menu{
+        padding: 0;
+    }
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 90vh;
+    }
+    .showcase2 header{
+        padding: 0;
+    }
+    .showcase-texturas{
+        min-height: 80vh;
+    }
+    .showcase-texturas header{
+        padding: 0;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+    }
+    #fondo-mountains{
+        height: 100vh;
+    }
+    #planeta header{
+        padding: 0;
+    }
+    #planeta{
+        min-height: 140vh;
+    }
+    .showcase header{
+        padding: 0;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px; 
+    }
+    #worker{
+        margin-bottom: 30px;
+    }
+    #minimal{
+        margin-bottom: 50px;
+    }
+    #linea1{
+        max-width: 400px;
+        margin-top: 50px;
+        margin-left: 190px;
+        margin-bottom: 0px;
+    }
+    #linea2{
+        margin-top: 10px;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+    #linea-v{
+        margin-left: -100px;
+        max-width: 0px;
+    }
+    .fondo-forest{
+        height: 240vh;
+    }
+    .showcase-innovation{
+        height: 160vh;
+    }
+    .textura-azul{
+        height: 230vh;
+    }
+    .fondo-graficas{
+        height: 80vh;
+    }
+    .showcase-work header{
+        padding: 0;
+    }
+    #tit-men{
+        margin-top: 20px;
+    }
+    .follow-us{
+        margin-top: 0;
+    }
+    .high-effective{
+        top: 0;
+    }
+}
+@media (max-width:990px){
+        .showcase-menu{
+        padding: 0;
+    }
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .water{
+        margin-left: -50px;
+    }
+    .showcase2{
+        min-height: 90vh;
+    }
+    .showcase2 header{
+        padding: 0;
+    }
+    .showcase-texturas{
+        min-height: 80vh;
+    }
+    .showcase-texturas header{
+        padding: 0;
+    }
+    #social-impact{
+        min-height: 130vh;
+    }
+    #high-quality header{
+        padding: 0;
+    }
+    #fondo-mountains{
+        height: 100vh;
+    }
+    #planeta header{
+        padding: 0;
+    }
+    #planeta{
+        min-height: 140vh;
+    }
+    .showcase header{
+        padding: 10px 50px;
+    }
+    .index h1{
+        padding: 0;
+        margin-top: 30px;   
+    }
+    #worker{
+        margin-bottom: 30px;
+    }
+    #minimal{
+        margin-bottom: 50px;
+    }
+    #linea1{
+        max-width: 400px;
+        margin-top: 50px;
+        margin-left: 190px;
+        margin-bottom: 0px;
+    }
+    #linea2{
+        margin-top: 10px;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+    #linea-v{
+        margin-left: -100px;
+        max-width: 0px;
+    }
+    .fondo-forest{
+        height: 240vh;
+    }
+    .showcase-innovation{
+        height: 160vh;
+    }
+    .textura-azul{
+        height: 230vh;
+    }
+    .fondo-graficas{
+        height: 140vh;
+    }
+    .fondo-graficas img{
+        max-width: 400px;
+    }
+    .showcase-work header{
+        padding: 0;
+    }
+    #tit-men{
+        margin-top: 20px;
+    }
+    .follow-us{
+        margin-top: 0;
+    }
+    .high-effective{
+        top: 0;
+    }
+}
