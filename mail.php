@@ -68,77 +68,59 @@ $bodyText =  "mAIL";
 // The HTML-formatted body of the email
 $bodyHtml = '
 
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="x-apple-disable-message-reformatting" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="x-apple-disable-message-reformatting"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
   <title></title>
 </head>
 <body style="margin:0;padding:0;">
-  <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;background:#ffffff;">
+  <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;background:#ffffff; font-family: sans-serif;">
     <tr>
-      <td style="padding:0;">
-        <table role="presentation" style="font-family: , sans-serif; width:602px;border-collapse:collapse;border:0px solid #cccccc;border-spacing:0;text-align:left;">
+      <td align="center" style="padding:0;">
+        <table role="presentation" style="width:602px;border-collapse:collapse;border:0px solid #cccccc;border-spacing:0;text-align:left; font-family: sans-serif;">
           <tr>
-            <td align="left" style="font-family: , sans-serif; padding:10px 0 30px 0;">
-            <img src="img/Logo-KLUANE-Bco.gif" alt="TEXTYLO" width="200" style="height:auto;display:block; padding-top: 15px;" />
+            <td align="left" style="padding:10px 0 30px 0; font-family: sans-serif;">
+              <img src="https://i.postimg.cc/jjTKt4LQ/Logo-KLUANE-azul.gif" alt="KLUANE DRILLING LTD." width="120" style="height:auto;display:block;" />
               <hr>
             </td>
           </tr>
           <tr>
-            <td style="font-family: , sans-serif; padding:0px 30px 42px 20px;">
-              <table role="presentation" style="font-family: , sans-serif; width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+            <td style="padding:0px 30px 42px 20px; font-family: sans-serif;">
+              <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0; font-family: sans-serif;">
                 <tr>
-                  <td style="font-family: , sans-serif; padding:0 0 36px 0;color:#153643;">
-                  <img src="https://i.postimg.cc/k4Jn15MD/Nuevo-Contacto.png" alt="NUEVO CONTACTO" style="max-width: 500px; margin-left: 50px; margin-bottom: 60px; margin-top: 20px;"/>
-                  <center>
-                    <h4 style="margin:0 0 12px 0;font-size: 20px; text-align: center; font-family: , sans-serif;">Se ha capturado un nuevo lead en <b style="font-weight: 600; color: black;">TEXTYLO</b></h4>
-                    <ul style="color: #aba9a8; list-style: none; text-align: center;">
-                    <li style="margin-bottom: 10px;">NAMES: ' . $name . '</li>
-                    <li style="margin-bottom: 10px;">LAST NAME: ' . $Lname . '</li>
-                    <li style="margin-bottom: 10px;">EMAIL:  ' . $email . '</li>
-                    <li style="margin-top: 40px;">PHONE: ' . $phone . '</li>
-                    <li style="margin-top: 40px;">COUNTRY: ' . $country . '</li>
-                    <li style="margin-top: 40px;">CITY: ' . $city . '</li>
-                    <li style="margin-top: 40px;">POSITION OF INTEREST: ' . $position . '</li>
-                    <li style="margin-top: 40px;">COMMENTS: ' . $mensaje . '</li>
-                </ul>
-                  </td>
+                  <td style="padding:0 0 36px 0;color:#153643; font-family: sans-serif;">
+                    <center>
+                      <h1 style="color: #122048; font-size: 4rem;">NEW CONTACT</h1>
+                      <h4 style="margin:0 0 12px 0;font-size: 20px; text-align: center; font-family:, sans-serif;">A new lead has been captured in <b style="font-weight: 600; color: black;">KLUANE DRILLING LTD.</b></h4>
+                      <ul style="color: #aba9a8; list-style: none; text-align: center;">
+                        <li style="margin-bottom: 10px;">NAMES: ' . $name . '</li>
+                        <li style="margin-bottom: 10px;">LAST NAME: ' . $Lname . '</li>
+                        <li style="margin-bottom: 10px;">EMAIL: ' . $email . '</li>
+                        <li style="margin-bottom: 10px;">PHONE: ' . $phone . '</li>
+                        <li style="margin-bottom: 10px;">COUNTRY: ' . $country . '</li>
+                        <li style="margin-bottom: 10px;">CITY: ' . $city . '</li>
+                        <li style="margin-bottom: 10px;">POSITION OF INTEREST:' . $position . '</li>
+                        <li style="margin-bottom: 10px;">COMMENTS: ' . $mensaje . '</li>
+                      </ul>
+                    </center>
+                    </td>
                 </tr>
-                
-                <tr>
-                      <td style="padding:0;">
-                        <table role="presentation" style="font-family: , sans-serif; width:100%;border-collapse:collapse;border:0;border-spacing:0;">
-                          <tr>
-                          <td style="padding:0;">
-                        <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0; font-family:, sans-serif;">
-                          <tr>
-                            <td style="width:260px;padding:0;vertical-align:top;color:#000000; font-family:, sans-serif;">
-                             
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                </center>
               </table>
             </td>
           </tr>
           <tr>
-            <td style="padding:30px;background:#000000;">
-              <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;font-size:9px;font-family:Arial,sans-serif;">
+            <td style="padding:30px;background:#000000; font-family: sans-serif;">
+              <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;font-size:9px; font-family:  sans-serif;">
                 <tr>
-                  <td style="padding:0;width:50%;" align="right">
-                    <img src="https://i.postimg.cc/4dpfLLNY/materialized-blueberry.gif" alt="MATERIALIZED BY Blueberry" />
+                  <td style="padding:0;width:50%; font-family: sans-serif;" align="right">
+                    <img src="https://i.postimg.cc/4dpfLLNY/materialized-blueberry.gif" alt="MATERIALIZED BY Blueberry"/>
                   </td>
                 </tr>
               </table>
@@ -149,7 +131,6 @@ $bodyHtml = '
     </tr>
   </table>
 </body>
-
 </html>
     
     ';
