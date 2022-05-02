@@ -162,7 +162,7 @@
                         and we'll be in touch shortly</b></h5>
                     </div>
                     <div class="row pt-5">
-                        <form action="">
+                        <form method="post" action="mail.php">
                             <div class="row wp-animated-group">
                                 <div class="col-12 col-lg-6 col-md-12 col-sm-12 pt-2 ">
                                     <label for="name" class="form-label wp-animated"  class="img-fluid wp-animated" id="logo" data-animation="fadeInDown" data-animation-duration="5s">NAMES</label>
@@ -180,25 +180,25 @@
                                 </div>
                                 <div class="col-12 col-lg-6 col-md-12 col-sm-12 pt-2">
                                     <label for="phone" class="form-label wp-animated" class="img-fluid wp-animated" id="logo" data-animation="fadeInDown" data-animation-duration="5s">PHONE</label>
-                                    <input type="text" class="form-control borde-bottom wp-animated" id="phone" name="phone" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="3s">
+                                    <input  type="text" class="form-control borde-bottom wp-animated" id="phone" name="phone" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="3s">
                                 </div>
                             </div>
                             <div class="row pt-4 wp-animated-group">
                                 <div class="col-12 col-lg-6 col-md-12 col-sm-12 pt-2">
                                     <label for="country" class="form-label wp-animated" class="img-fluid wp-animated" id="logo" data-animation="fadeInDown" data-animation-duration="5s">COUNTRY</label>
-                                    <select class="form-select wp-animated" aria-label="Default select example" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="3s">
+                                    <select name="country" id="country" class="form-select wp-animated" aria-label="Default select example" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="3s">
                                         <option selected>SELECT</option>
-                                        <option value="1">CANADA</option>
-                                        <option value="2">AFRICA</option>
-                                        <option value="3">MEXICO</option>
-                                        <option value="3">GUATEMALA</option>
-                                        <option value="3">PANAMA</option>
-                                        <option value="3">DOMINICAN REPUBLIC</option>
-                                        <option value="3">COLOMBIA</option>
-                                        <option value="3">ECUADOR</option>
-                                        <option value="3">CHILE</option>
-                                        <option value="3">PERU</option>
-                                        <option value="3">NICARAGUA</option>
+                                        <option value="CANADA">CANADA</option>
+                                        <option value="AFRICA">AFRICA</option>
+                                        <!-- <option value="MEXICO">MEXICO</option>
+                                        <option value="GUATEMALA">GUATEMALA</option>
+                                        <option value="PANAMA">PANAMA</option>
+                                        <option value="DOMINICAN REPUBLIC">DOMINICAN REPUBLIC</option>
+                                        <option value="COLOMBIA">COLOMBIA</option>
+                                        <option value="ECUADOR">ECUADOR</option>
+                                        <option value="CHILE">CHILE</option>
+                                        <option value="PERU">PERU</option>
+                                        <option value="NICARAGUA">NICARAGUA</option> -->
                                       </select>
                                 </div>
                                 <div class="col-12 col-lg-6 col-md-12 col-sm-12 pt-2">
@@ -219,7 +219,7 @@
                                 </div>
                             </div>
                             <div class="text-end pt-4 pb-5 wp-animated-group">
-                                <button type="button" class="btn btn-light btn-enviar wp-animated" class="img-fluid wp-animated" id="logo" data-animation="fadeInDown" data-animation-duration="5s">SEND REQUEST</button>
+                                <button type="submit" class="btn btn-light btn-enviar wp-animated" class="img-fluid wp-animated" id="logo" data-animation="fadeInDown" data-animation-duration="5s">SEND REQUEST</button>
                               </div>
                         </form>
                         
