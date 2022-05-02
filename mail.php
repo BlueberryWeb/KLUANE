@@ -40,8 +40,8 @@ $senderName = 'KLUANE PAGE';
 
 // Replace recipient@example.com with a "To" address. If your account
 // is still in the sandbox, this address must be verified.
-$recipient1 = 'carlos.gonzalez.utj@gmail.com';
-$recipient3 = 'notificaciones.goodlock@gmail.com';
+$recipient1 = 'benjamin1berry@gmail.com';
+$recipient3 = 'benjamin1berry@gmail.com';
 
 // Replace smtp_username with your Amazon SES SMTP user name.
 $usernameSmtp = 'noreply.blueberry@gmail.com';
