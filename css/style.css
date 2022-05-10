@@ -357,6 +357,9 @@ li{
     background: #111;
     color: #fff;
     z-index: 2;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url("../img/Header-works.jpg");
 }
 .showcase-work header{
@@ -656,7 +659,6 @@ footer span{
 }
 
 .slider::before, .slider::after {
-    background: linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 100%);
     content: "";
     height: 100%;
     position: absolute;
@@ -716,7 +718,6 @@ footer span{
 }
 
 .slider-w::before, .slider-w::after {
-    background: linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 100%);
     content: "";
     height: 100%;
     position: absolute;

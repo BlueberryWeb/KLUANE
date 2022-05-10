@@ -116,7 +116,6 @@ function animateNumbers(element, start, stop, commas, duration, ease) {
 /*DIPPER DE LAS GRÁFICAS PARA MANTENER EL BUCLE*/
 var $dipper = $('.dipper'); 
 $dipper.waypoint(function(){
-    console.log('Hola');
     setTimeout(function() {
         $(".content").fadeOut(0);
     },3700);
