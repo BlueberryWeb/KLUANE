@@ -648,6 +648,70 @@ footer span{
     left: 0;
     z-index: 3;
 }
+.mapa{
+    position: relative;
+}
+.mapa-completo{
+    display: block;
+    width: 100%;
+}
+.mapa img{
+    transform: opacity scale(1.1);
+}
+.mapa img.top:hover{
+    opacity: 0;
+}
+.apariencia-link{
+    color: #464646;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: block;
+    line-height: 33px;
+    font-weight: 900;
+    font-size: 22px;
+    cursor: pointer;
+}
+.canada-link{
+    position: absolute;
+    top: 27%;
+    left: 21.6%;
+}
+.mexico-link{
+    position: absolute;
+    top: 49.2%;
+    left: 24.4%;
+}
+.centro-link{
+   position: absolute;
+   top: 53%;
+   left: 28%;
+}
+.etiopia-link{
+    position: absolute;
+    top: 55.3%;
+    left: 55.5%; 
+}
+.colombia-link{
+    position: absolute;
+    top: 57.5%;
+    left: 30.9%;
+}
+.ecuador-link{
+    position: absolute;
+    top: 59.2%;
+    left: 29.7%;
+}
+.peru-link{
+    position: absolute;
+    top:62.3%;
+    left: 30.3%;
+}
+.chile-link{
+    position: absolute;
+    top: 68.8%;
+    left:31.8%;
+}
 /*GALERÍA*/
 .slider {
     background: white;
