@@ -653,6 +653,8 @@ footer span{
 }
 .mapa{
     position: relative;
+    display: inline-block;
+    width: 100%;
 }
 .mapa-completo{
     display: block;

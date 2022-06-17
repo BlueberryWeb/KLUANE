@@ -117,7 +117,23 @@
 
         </div>
     </div>-->
-
+<style>
+    .paises img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+        transform: scale(0.97);
+        transition: all 200ms ease-out;
+        backface-visibility: hidden;
+    }
+    .paises img.select{
+        opacity: 1;
+        transform: scale(1);
+        z-index: 10;
+    }
+</style>
     <!--OUR GLOBAL PRESENCE-->
     <div class="container-fluid">
         <div class="container">
@@ -130,7 +146,7 @@
             </div>
             <div class="row wp-animated-group mapa">
                 <img src="img/mapa-general.jpg" alt="KLUANE DRILLING LTD." class="img-fluid mapa-completo"/>
-                <!--<div class="paises">
+                <div class="paises">
                     <img src="img/canada-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid canada-image"/>
                     <img src="img/mexico-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid mexico-image"/>
                     <img src="img/centroamerica-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid centro-image"/>
@@ -139,9 +155,9 @@
                     <img src="img/ecuador-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid ecuador-image"/>
                     <img src="img/peru-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid peru-image"/>
                     <img src="img/chile-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid chile-image"/>
-                </div>-->
+                </div>
                 <div class="links">
-                    <div class="apariencia-link canada-link">
+                    <div class="apariencia-link canada-link" id="canada">
                         <i class="fa-solid fa-location-pin"></i>
                         <i class="canada-image"></i>
                     </div>
@@ -177,7 +193,7 @@
             </div>
         </div>
     </div>
-
+    
     <style>
 .li {
   position: relative;
@@ -235,8 +251,34 @@
         </a>
         
     </div>
-      
-   
+    <style type="text/css">
+        .active,
+        li:hover {
+            color: red;
+        }
+
+        .visited {
+            color: violet;
+        }
+    </style>
+    <ul>
+        <!--list items without the
+            active class initially-->
+        <li class="li">Item 1</li>
+        <li class="li">Item 2</li>
+        <li class="li">Item 3</li>
+    </ul>
+
+    <!-- javascript function to add the active 
+         class to list when hovered over -->
+    <script type="text/javascript">
+        $(".li").hover(
+            function() {
+                //toggleClass() switches the active class
+                $(this).toggleClass("active");
+            }
+        );
+    </script>
 
 
 
@@ -250,5 +292,13 @@
     <script src="lib/easy-waypoint-animate.js"></script>
     <script src="lib/jquery.waypoints.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        $(".canada-link").hover(
+                       function() {
+                           //toggleClass() switches the active class
+                           $(this).toggleClass("select");
+                       },
+                   );
+           </script>
 </body>
 </html>
