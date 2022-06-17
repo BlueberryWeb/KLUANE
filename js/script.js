@@ -112,6 +112,17 @@ function animateNumbers(element, start, stop, commas, duration, ease) {
       }
   });
 }
+/*RECAPTCHA */
+$('#form').submit(function (event) {
+    event.preventDefault();
+    grecaptcha.ready(function () {
+        grecaptcha.execute('6Lc_knsgAAAAANk6YT3fIzgVXUSBZqHJiVa74VvT', { action: 'registro' }).then(function (token) {
+            $('#form').prepend('<input type="hidden" name="token" value="' + token + '">');
+            $('#form').prepend('<input type="hidden" name="action" value="registro">');
+            $('#form').unbind('submit').submit();
+        });
+    });
+});
 
 /*DIPPER DE LAS GRÁFICAS PARA MANTENER EL BUCLE*/
 var $dipper = $('.dipper'); 

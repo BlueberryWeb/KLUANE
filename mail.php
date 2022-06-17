@@ -1,20 +1,5 @@
 
 <?php
-/**
- * Copyright 2010-2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
- *
- * This file is licensed under the Apache License, Version 2.0 (the "License").
- * You may not use this file except in compliance with the License. A copy of
- * the License is located at
- *
- * http://aws.amazon.com/apache2.0/
- *
- * This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
- * CONDITIONS OF ANY KIND, either express or implied. See the License for the
- * specific language governing permissions and limitations under the License.
- */
-
-
 $name = trim($_POST['name']);
 $Lname = trim($_POST['Lname']);
 $email = trim($_POST['email']);
@@ -24,48 +9,24 @@ $city = trim($_POST['city']);
 $position = trim($_POST['position']);
 $mensaje = trim($_POST['mensaje']);
 
-
-// Import PHPMailer classes into the global namespace.
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-// If necessary, modify the path in the require statement below to refer to the
-// location of your Composer autoload.php file.
 require './vendor/autoload.php';
 
-// Replace sender@example.com with your "From" address.
-// This address must be verified with Amazon SES.
-$sender = 'noreply.blueberry@gmail.com';
-$senderName = 'KLUANE PAGE';
+$sender = 'noreply.kluane@gmail.com';
+$senderName = 'Nuevo contacto de kluane.ca';
+$recipient1 = 'blueberryweb7@gmail.com';
+$recipient3 = 'paola.blueberry2022@gmail.com';
 
-// Replace recipient@example.com with a "To" address. If your account
-// is still in the sandbox, this address must be verified.
-$recipient1 = 'benjamin1berry@gmail.com';
-$recipient3 = 'benjamin1berry@gmail.com';
 
-// Replace smtp_username with your Amazon SES SMTP user name.
-$usernameSmtp = 'noreply.blueberry@gmail.com';
-
-// Replace smtp_password with your Amazon SES SMTP password.
-$passwordSmtp = 'Blueberry0707';
-
-// Specify a configuration set. If you do not want to use a configuration
-// set, comment or remove the next line.
+$usernameSmtp = 'noreply.kluane@gmail.com';
+$passwordSmtp = 'drosgglnbdfhmxye';
 $configurationSet = 'ConfigSet';
-
-// If you're using Amazon SES in a region other than US West (Oregon),
-// replace email-smtp.us-west-2.amazonaws.com with the Amazon SES SMTP
-// endpoint in the appropriate region.
 $host = 'smtp.gmail.com';
 $port = 587;
-
-// The subject line of the email
-$subject = 'KLUANE PAGE';
-
-// The plain-text body of the email
-$bodyText =  "mAIL";
-
-// The HTML-formatted body of the email
+$subject = 'Mensaje de textilo en la web';
+$bodyText =  "Correo de la web";
 $bodyHtml = '
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -74,52 +35,46 @@ $bodyHtml = '
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <meta name="x-apple-disable-message-reformatting"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
-  <title></title>
 </head>
 <body style="margin:0;padding:0;">
-  <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;background:#ffffff; font-family: sans-serif;">
+  <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;background:#ffffff;">
     <tr>
       <td align="center" style="padding:0;">
-        <table role="presentation" style="width:602px;border-collapse:collapse;border:0px solid #cccccc;border-spacing:0;text-align:left; font-family: sans-serif;">
+        <table role="presentation" style="width:602px;border-collapse:collapse;border:0px solid #cccccc;border-spacing:0;text-align:left;">
           <tr>
-            <td align="left" style="padding:10px 0 30px 0; font-family: sans-serif;">
-              <img src="https://i.postimg.cc/jjTKt4LQ/Logo-KLUANE-azul.gif" alt="KLUANE DRILLING LTD." width="120" style="height:auto;display:block;" />
+            <td align="left" style="padding:10px 0 30px 0; ">
+              <img src="https://i.postimg.cc/vHX6QB70/Bueberrypostivo.jpg" alt=":Logo Blueberry" width="200" style="height:auto;display:block;" />
               <hr>
             </td>
           </tr>
           <tr>
-            <td style="padding:0px 30px 42px 20px; font-family: sans-serif;">
-              <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0; font-family: sans-serif;">
+            <td style="padding:0px 30px 42px 20px; ">
+              <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0; ">
                 <tr>
-                  <td style="padding:0 0 36px 0;color:#153643; font-family: sans-serif;">
-                    <center>
-                      <h1 style="color: #122048; font-size: 4rem;">NEW CONTACT</h1>
-                      <h4 style="margin:0 0 12px 0;font-size: 20px; text-align: center; font-family:, sans-serif;">A new lead has been captured in <b style="font-weight: 600; color: black;">KLUANE DRILLING LTD.</b></h4>
-                      <ul style="color: #aba9a8; list-style: none; text-align: center;">
-                        <li style="margin-bottom: 10px;">NAMES: ' . $name . '</li>
-                        <li style="margin-bottom: 10px;">LAST NAME: ' . $Lname . '</li>
-                        <li style="margin-bottom: 10px;">EMAIL: ' . $email . '</li>
-                        <li style="margin-bottom: 10px;">PHONE: ' . $phone . '</li>
-                        <li style="margin-bottom: 10px;">COUNTRY: ' . $country . '</li>
-                        <li style="margin-bottom: 10px;">CITY: ' . $city . '</li>
-                        <li style="margin-bottom: 10px;">POSITION OF INTEREST:' . $position . '</li>
-                        <li style="margin-bottom: 10px;">COMMENTS: ' . $mensaje . '</li>
+                  <td style="padding:0 0 36px 0;color:#153643;">
+                    <img src="https://i.postimg.cc/k4Jn15MD/Nuevo-Contacto.png" alt="NUEVO CONTACTO" style="max-width: 500px; margin-left: 50px; margin-bottom: 60px; margin-top: 20px;"/>
+                      <ul style="color: #808080; list-style: none;">
+                        <li><h4 style="margin:0 0 12px 0;font-size: 20px;  margin-bottom: 50px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;">Se ha capturado un nuevo lead :</h4></li>
+                        <li style=" font-size: 20px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;"><h4><b style="color: #666666;">Name: </b>  ' . $name . ' </h4></li>
+                        <li style=" font-size: 20px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;"><h4><b style="color: #666666;">Last Name: </b>  ' . $Lname . ' </h4></li>
+                        <li style=" font-size: 20px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;"> <h4><b style="color: #666666;">Email: </b>  ' . $email . '</h4></li>
+                        <li style=" font-size: 20px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;"> <h4><b style="color: #666666;">Phone:</b>  ' . $phone . '</h4></li>
+                        <li style=" font-size: 20px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;"> <h4><b style="color: #666666;">Country:</b>  ' . $country . '</h4></li>
+                        <li style=" font-size: 20px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;"> <h4><b style="color: #666666;">City:</b>  ' . $city . '</h4></li>
+                        <li style=" font-size: 20px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;"> <h4><b style="color: #666666;">Position:</b>  ' . $position . '</h4></li>
+                        <li style="font-size: 20px; font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;"> <h4><b style="color: #666666;">Message:</b>   ' . $mensaje . '</h4>.</li>
                       </ul>
-                    </center>
+                    
                     </td>
                 </tr>
               </table>
             </td>
           </tr>
           <tr>
-            <td style="padding:30px;background:#000000; font-family: sans-serif;">
+            <td style="padding:30px;background:#000000;">
               <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;font-size:9px; font-family:  sans-serif;">
                 <tr>
-                  <td style="padding:0;width:50%; font-family: sans-serif;" align="right">
+                  <td style="padding:0;width:50%;" align="right">
                     <img src="https://i.postimg.cc/4dpfLLNY/materialized-blueberry.gif" alt="MATERIALIZED BY Blueberry"/>
                   </td>
                 </tr>
@@ -132,58 +87,72 @@ $bodyHtml = '
   </table>
 </body>
 </html>
-    
-    ';
+
+';
 
 $mail = new PHPMailer(true);
 
-try {
-  // Specify the SMTP settings.
-  $mail->isSMTP();
-  $mail->setFrom($sender, $senderName);
-  $mail->Username   = $usernameSmtp;
-  $mail->From   = $usernameSmtp;
-  $mail->Password   = $passwordSmtp;
-  $mail->Host       = $host;
-  $mail->Port       = $port;
-  $mail->SMTPAuth   = true;
-  $mail->SMTPSecure = 'tls';
-  // $mail->SMTPDebug = true;
-  $mail->addCustomHeader('X-SES-CONFIGURATION-SET', $configurationSet);
 
-  // Specify the message recipients.
-  if($country == 'CANADA'){
-    $mail->addAddress($recipient1);
-  }elseif($country == 'AFRICA'){
-    $mail->addAddress($recipient3);
-  }
- 
-  // You can also add CC, BCC, and additional To recipients here.
+// Ingresa tu clave secreta.....
+define("RECAPTCHA_V3_SECRET_KEY", '6LcbFlUgAAAAALajj57uqSPKg-7BdSqlyTQMZ242');
+$token = $_POST['token'];
+$action = $_POST['action'];
 
-  // Specify the content of the message.
-  $mail->isHTML(true);
-  $mail->Subject    = $subject;
-  $mail->Body       = $bodyHtml;
-  $mail->AltBody    = $bodyText;
-  $mail->Send();
-  sleep(5);
-  header("Location: {$_SERVER['HTTP_REFERER']}");
-} catch (phpmailerException $e) {
-  echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
-} catch (Exception $e) {
-  echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
+// call curl to POST request
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_V3_SECRET_KEY, 'response' => $token)));
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+$response = curl_exec($ch);
+curl_close($ch);
+$arrResponse = json_decode($response, true);
+
+// verificar la respuesta
+if ($arrResponse["success"] == '1' && $arrResponse["action"] == $action && $arrResponse["score"] >= 0.5) {
+    // Si entra aqui, es un humano, puedes procesar el formulario
+    try {
+        $mail->isSMTP();
+        $mail->setFrom($sender, $senderName);
+        $mail->Username   = $usernameSmtp;
+        $mail->From   = $usernameSmtp;
+        $mail->Password   = $passwordSmtp;
+        $mail->Host       = $host;
+        $mail->Port       = $port;
+        $mail->SMTPAuth   = true;
+        $mail->SMTPSecure = 'tls';
+        $mail->addCustomHeader('X-SES-CONFIGURATION-SET', $configurationSet);
+          // Specify the message recipients.
+        if($country == 'CANADA'){
+          $mail->addAddress($recipient1);
+        }elseif($country == 'AFRICA'){
+          $mail->addAddress($recipient3);
+        }
+        $mail->isHTML(true);
+        $mail->Subject    = $subject;
+        $mail->Body       = $bodyHtml;
+        $mail->AltBody    = $bodyText;
+        $mail->Send();
+        sleep(4);
+        header("Location: {$_SERVER['HTTP_REFERER']}");
+    } catch (phpmailerException $e) {
+        echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
+    } catch (Exception $e) {
+        echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
+    }
+} else {
+    // Si entra aqui, es un robot....
+    echo "Lo siento, parece que eres un Robot";
 }
 
+
+
+
+
+
+
+
+
+
+
 ?>
-
-
-
-
-
-
-
-
-
-
-
-

@@ -3,6 +3,9 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+.grecaptcha-badge {
+    visibility: hidden;
+} 
 a{
     color: white;
     text-decoration: none;
