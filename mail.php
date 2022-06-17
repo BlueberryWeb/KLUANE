@@ -94,7 +94,7 @@ $mail = new PHPMailer(true);
 
 
 // Ingresa tu clave secreta.....
-define("RECAPTCHA_V3_SECRET_KEY", '6LcbFlUgAAAAALajj57uqSPKg-7BdSqlyTQMZ242');
+define("RECAPTCHA_V3_SECRET_KEY", '6Lc_knsgAAAAAMXU2ML6ZEl6li9UsSiGRiEy7gLn');
 $token = $_POST['token'];
 $action = $_POST['action'];
 
@@ -112,6 +112,7 @@ $arrResponse = json_decode($response, true);
 if ($arrResponse["success"] == '1' && $arrResponse["action"] == $action && $arrResponse["score"] >= 0.5) {
     // Si entra aqui, es un humano, puedes procesar el formulario
     try {
+
         $mail->isSMTP();
         $mail->setFrom($sender, $senderName);
         $mail->Username   = $usernameSmtp;
@@ -134,6 +135,7 @@ if ($arrResponse["success"] == '1' && $arrResponse["action"] == $action && $arrR
         $mail->AltBody    = $bodyText;
         $mail->Send();
         sleep(4);
+
         header("Location: {$_SERVER['HTTP_REFERER']}");
     } catch (phpmailerException $e) {
         echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
