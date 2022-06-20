@@ -16,8 +16,14 @@ require './vendor/autoload.php';
 
 $sender = 'noreply.kluane@gmail.com';
 $senderName = 'Nuevo contacto de kluane.ca';
-$recipient1 = 'blueberryweb7@gmail.com';
-$recipient3 = 'paola.blueberry2022@gmail.com';
+$recipientcanada = 'info@kluanedrilling.ca';
+$recipientmexico = 'victoria@kluanedrilling.ca';
+$recipientcentro ='info@kluanedrilling.ca';
+$recipientcolombia ='jhon.puerta@kluanecolombia.com';
+$recipientecuador = 'carlos.vaca@kluane-ecuador.ec';
+$recipientchile = 'victoria@kluanedrilling.ca';
+$recipientperu = 'jhon.puerta@kluanecolombia.com';
+$recipientnicaragua = 'juan.zapata@kluanedrilling.ca';
 
 
 $usernameSmtp = 'noreply.kluane@gmail.com';
@@ -125,9 +131,27 @@ if ($arrResponse["success"] == '1' && $arrResponse["action"] == $action && $arrR
         $mail->addCustomHeader('X-SES-CONFIGURATION-SET', $configurationSet);
           // Specify the message recipients.
         if($country == 'CANADA'){
-          $mail->addAddress($recipient1);
+          $mail->addAddress($recipientcanada);
+        }elseif($country == 'MEXICO'){
+          $mail->addAddress($recipientmexico);
         }elseif($country == 'AFRICA'){
-          $mail->addAddress($recipient3);
+          $mail->addAddress($recipientcentro);
+        }elseif($country == 'GUATEMALA'){
+          $mail->addAddress($recipientcentro);
+        }elseif($country == 'PANAMA'){
+          $mail->addAddress($recipientcentro);
+        }elseif($country == 'DOMINICAN REPUBLIC'){
+          $mail->addAddress($recipientcentro);
+        }elseif($country == 'COLOMBIA'){
+          $mail->addAddress($recipientcolombia);
+        }elseif($country == 'ECUADOR'){
+          $mail->addAddress($recipientecuador);
+        }elseif($country == 'CHILE'){
+          $mail->addAddress($recipientchile);
+        }elseif($country == 'PERU'){
+          $mail->addAddress($recipientperu);
+        }elseif($country == 'NICARAGUA'){
+          $mail->addAddress($recipientnicaragua);
         }
         $mail->isHTML(true);
         $mail->Subject    = $subject;
