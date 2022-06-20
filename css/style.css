@@ -651,30 +651,31 @@ footer span{
     left: 0;
     z-index: 3;
 }
-.mapa{
-    position: relative;
-    display: inline-block;
+.paises img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-}
-.mapa-completo{
-    display: block;
-    width: 100%;
-}
-.mapa img{
-    transform: opacity scale(1.1);
-}
-.mapa img.top:hover{
     opacity: 0;
+    transform: scale(0.97);
+    transition: all 200ms ease-out;
+    backface-visibility: hidden;
+}
+
+.paises img.second {
+    opacity: 1;
+    transform: scale(1);
+    z-index: 10;
 }
 .apariencia-link{
     color: #464646;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     display: block;
     line-height: 33px;
     font-weight: 900;
-    font-size: 22px;
+    font-size: 30px;
     cursor: pointer;
 }
 .canada-link{

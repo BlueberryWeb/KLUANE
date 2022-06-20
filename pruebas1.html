@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/4514d9060c.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="img/favicon-kdl.png" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="preload" href="css/style.css" />
-    <link rel="preload" href="lib/anime.min.js" />
-    <link rel="preload" href="lib/easy-waypoint-animate.js" />
-    <link rel="preload" href="lib/jquery.waypoints.js" />
-    <link rel="preload" href="lib/jquery.waypoints.min.js" />
-    <link rel="preload" href="js/script.js" />
-    <link rel="preload" href="css/animate.css" />
+    <script src="https://kit.fontawesome.com/4514d9060c.js" ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="shortcut icon" href="img/favicon-kdl.png"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="preload" href="css/style.css"/>
+    <link rel="preload" href="lib/anime.min.js"/>
+    <link rel="preload" href="lib/easy-waypoint-animate.js"/>
+    <link rel="preload" href="lib/jquery.waypoints.js"/>
+    <link rel="preload" href="lib/jquery.waypoints.min.js"/>
+    <link rel="preload" href="js/script.js"/>
+    <link rel="preload" href="css/animate.css"/>
     <title>KLUANE</title>
 </head>
-
 <body>
     <!--FONDO TEXTURA NEGRA
     <div class="container-fluid textura-negra dipper">
@@ -119,204 +117,84 @@
 
         </div>
     </div>-->
-    <style>
-        .paises img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            opacity: 0;
-            transform: scale(0.97);
-            transition: all 200ms ease-out;
-            backface-visibility: hidden;
-        }
-
-        .paises img.second {
-            opacity: 1;
-            transform: scale(1);
-            z-index: 10;
-        }
-
-        /* .first {
-            color: green;
-        }
-
-        .second {
-            color: orange;
-        } */
-    </style>
+<style>
+    .paises img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+        transform: scale(0.97);
+        transition: all 200ms ease-out;
+        backface-visibility: hidden;
+    }
+    .paises img.select{
+        opacity: 1;
+        transform: scale(1);
+        z-index: 10;
+    }
+</style>
     <!--OUR GLOBAL PRESENCE-->
     <div class="container-fluid">
         <div class="container">
             <div class="row d-flex justify-content-center wp-animated-group">
-                <img src="img/logo-kdl-white-estatico.png" alt="KLUANE DRILLING LTD." id="logo"
-                    class="wp-animated img-fluid pb-4 pt-4" data-animation="fadeInDown" data-animation-duration="5s" />
-                <h1 class="text-center wp-animated" data-animation="fadeInDown" data-animation-delay="0.4s"
-                    data-animation-duration="5s">OUR GLOBAL <b>PRESENCE</b></h1>
-                <p class="text-center wp-animated" data-animation="fadeInDown" data-animation-delay="0.5s"
-                    data-animation-duration="5s">Kluane Drilling Ltd. continues to expand its operations and has <br>
-                    archieved international recognition in the industry thanks to the <br>
-                    efforts of its subsidiaries in the following countries:</p>
+                <img src="img/logo-kdl-white-estatico.png" alt="KLUANE DRILLING LTD." id="logo" class="wp-animated img-fluid pb-4 pt-4" data-animation="fadeInDown" data-animation-duration="5s"/>
+                <h1 class="text-center wp-animated" data-animation="fadeInDown" data-animation-delay="0.4s" data-animation-duration="5s">OUR GLOBAL <b>PRESENCE</b></h1>
+                <p class="text-center wp-animated" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="5s">Kluane Drilling Ltd. continues to expand its operations and has <br>
+                archieved international recognition in the industry thanks to the <br>
+                efforts of its subsidiaries in the following countries:</p>
             </div>
-
             <div class="row wp-animated-group mapa">
-                <img src="img/mapa-general.jpg" alt="KLUANE DRILLING LTD." class="img-fluid mapa-completo" />
+                <img src="img/mapa-general.jpg" alt="KLUANE DRILLING LTD." class="img-fluid mapa-completo"/>
                 <div class="paises">
-                    <img id="canada" src="img/canada-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid canada-image" />
-                    <img id="mexico" src="img/mexico-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid mexico-image" />
-                    <img id="centro" src="img/centroamerica-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid centro-image" />
-                    <img id="etopia" src="img/etiopia-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid etiopia-image" />
-                    <img id="colombia" src="img/colombia-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid colombia-image" />
-                    <img id="ecuador" src="img/ecuador-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid ecuador-image" />
-                    <img id="peru" src="img/peru-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid peru-image" />
-                    <img id="chile" src="img/chile-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid chile-image" />
+                    <img src="img/canada-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid canada-image"/>
+                    <img src="img/mexico-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid mexico-image"/>
+                    <img src="img/centroamerica-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid centro-image"/>
+                    <img src="img/etiopia-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid etiopia-image"/>
+                    <img src="img/colombia-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid colombia-image"/>
+                    <img src="img/ecuador-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid ecuador-image"/>
+                    <img src="img/peru-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid peru-image"/>
+                    <img src="img/chile-mapa.png" alt="KLUANE DRILLING LTD." class="img-fluid chile-image"/>
                 </div>
                 <div class="links">
                     <div class="apariencia-link canada-link" id="canada">
-                        <a style="padding: 10px;" id="pointcanada"><i class="fa-solid fa-location-pin text-danger"></i></a>
+                        <i class="fa-solid fa-location-pin"></i>
+                        <i class="canada-image"></i>
                     </div>
                     <div class="apariencia-link mexico-link">
-                        <a style="padding: 10px;" id="pointmexico"><i class="fa-solid fa-location-pin text-danger"></i></a>
+                        <i class="fa-solid fa-location-pin"></i>
+                        <i class="mexico-image"></i>
                     </div>
                     <div class="apariencia-link centro-link">
-                        <a style="padding: 10px;" id="pointcentro"><i class="fa-solid fa-location-pin text-danger"></i></a>
+                        <i class="fa-solid fa-location-pin"></i>
+                        <i class="centro-image"></i>
                     </div>
                     <div class="apariencia-link etiopia-link">
-                        <a style="padding: 10px;" id="pointetopia"><i class="fa-solid fa-location-pin text-danger"></i></a>
+                        <i class="fa-solid fa-location-pin"></i>
+                        <i class="etiopia-image"></i>
                     </div>
                     <div class="apariencia-link colombia-link">
-                        <a id="pointcolombia"><i class="fa-solid fa-location-pin text-danger"></i></a>
+                        <i class="fa-solid fa-location-pin"></i>
+                        <i class="colombia-image"></i>
                     </div>
                     <div class="apariencia-link ecuador-link">
-                        <a id="pointecuador"><i class="fa-solid fa-location-pin text-danger"></i></a>
+                        <i class="fa-solid fa-location-pin"></i>
+                        <i class="ecuador-image"></i>
                     </div>
                     <div class="apariencia-link peru-link">
-                        <a id="pointperu"><i class="fa-solid fa-location-pin text-danger"></i></a>
+                        <i class="fa-solid fa-location-pin"></i>
+                        <i class="peru-image"></i>
                     </div>
                     <div class="apariencia-link chile-link">
-                        <i id="pointchile" class="fa-solid fa-location-pin text-danger"></i>
+                        <i class="fa-solid fa-location-pin"></i>
+                        <i class="chile-image"></i>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-        var pointcanada = document.querySelector('#pointcanada');
-        var canada = document.querySelector('#canada');
-
-        pointcanada.addEventListener('mouseenter', function () {
-            // this.classList.remove('first');
-            canada.classList.add('second');
-        })
-        pointcanada.addEventListener('mouseleave', function () {
-            // this.classList.add('first');
-            canada.classList.remove('second');
-        })
-
-        var pointcanada = document.querySelector('#pointmexico');
-        var mexico = document.querySelector('#mexico');
-
-        pointmexico.addEventListener('mouseenter', function () {
-            // this.classList.remove('first');
-            mexico.classList.add('second');
-        })
-        pointmexico.addEventListener('mouseleave', function () {
-            // this.classList.add('first');
-            mexico.classList.remove('second');
-        })
-
-        var pointcanada = document.querySelector('#pointcentro');
-        var centro = document.querySelector('#centro');
-
-        pointcentro.addEventListener('mouseenter', function () {
-            // this.classList.remove('first');
-            centro.classList.add('second');
-        })
-        pointcentro.addEventListener('mouseleave', function () {
-            // this.classList.add('first');
-            centro.classList.remove('second');
-        })
-
-        var pointcanada = document.querySelector('#pointetopia');
-        var etopia = document.querySelector('#etopia');
-
-        pointetopia.addEventListener('mouseenter', function () {
-            // this.classList.remove('first');
-            etopia.classList.add('second');
-        })
-        pointetopia.addEventListener('mouseleave', function () {
-            // this.classList.add('first');
-            etopia.classList.remove('second');
-        })
-
-        var pointcanada = document.querySelector('#pointcolombia');
-        var colombia = document.querySelector('#colombia');
-
-        pointcolombia.addEventListener('mouseenter', function () {
-            // this.classList.remove('first');
-            colombia.classList.add('second');
-        })
-        pointcolombia.addEventListener('mouseleave', function () {
-            // this.classList.add('first');
-            colombia.classList.remove('second');
-        })
-
-        var pointcanada = document.querySelector('#pointecuador');
-        var ecuador = document.querySelector('#ecuador');
-
-        pointecuador.addEventListener('mouseenter', function () {
-            // this.classList.remove('first');
-            ecuador.classList.add('second');
-        })
-        pointecuador.addEventListener('mouseleave', function () {
-            // this.classList.add('first');
-            ecuador.classList.remove('second');
-        })
-
-        var pointcanada = document.querySelector('#pointperu');
-        var peru = document.querySelector('#peru');
-
-        pointperu.addEventListener('mouseenter', function () {
-            // this.classList.remove('first');
-            peru.classList.add('second');
-        })
-        pointperu.addEventListener('mouseleave', function () {
-            // this.classList.add('first');
-            peru.classList.remove('second');
-        })
-
-        var pointcanada = document.querySelector('#pointperu');
-        var peru = document.querySelector('#peru');
-
-        pointperu.addEventListener('mouseenter', function () {
-            // this.classList.remove('first');
-            peru.classList.add('second');
-        })
-        pointperu.addEventListener('mouseleave', function () {
-            // this.classList.add('first');
-            peru.classList.remove('second');
-        })
-
-        var pointcanada = document.querySelector('#pointchile');
-        var chile = document.querySelector('#chile');
-
-        pointchile.addEventListener('mouseenter', function () {
-            // this.classList.remove('first');
-            chile.classList.add('second');
-        })
-        pointchile.addEventListener('mouseleave', function () {
-            // this.classList.add('first');
-            chile.classList.remove('second');
-        })
-    </script>
-
-
-    <!-- Mapa chafa -->
-    <!-- <style>
+    
+    <style>
 .li {
   position: relative;
   display: inline-block;
@@ -340,7 +218,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('img/canada-mapa.png') no-repeat center center; 
+  background: url('img/chile-mapa.png') no-repeat center center; 
   transition: all 0.20s ease-out;
 }
  
@@ -384,15 +262,15 @@
         }
     </style>
     <ul>
-        list items without the
-            active class initially
+        <!--list items without the
+            active class initially-->
         <li class="li">Item 1</li>
         <li class="li">Item 2</li>
         <li class="li">Item 3</li>
     </ul>
 
-   javascript function to add the active 
-         class to list when hovered over 
+    <!-- javascript function to add the active 
+         class to list when hovered over -->
     <script type="text/javascript">
         $(".li").hover(
             function() {
@@ -401,7 +279,7 @@
             }
         );
     </script>
- -->
+
 
 
 
@@ -416,12 +294,11 @@
     <script src="js/script.js"></script>
     <script>
         $(".canada-link").hover(
-            function () {
-                //toggleClass() switches the active class
-                $(this).toggleClass("select");
-            },
-        );
-    </script>
+                       function() {
+                           //toggleClass() switches the active class
+                           $(this).toggleClass("select");
+                       },
+                   );
+           </script>
 </body>
-
 </html>

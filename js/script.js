@@ -124,6 +124,7 @@ $('#form').submit(function (event) {
     });
 });
 
+
 /*DIPPER DE LAS GRÁFICAS PARA MANTENER EL BUCLE*/
 var $dipper = $('.dipper'); 
 $dipper.waypoint(function(){
@@ -135,3 +136,99 @@ $dipper.waypoint(function(){
         $(".content2").fadeIn(0);
     },3700);
 });
+
+var pointcanada = document.querySelector('#pointcanada');
+var canada = document.querySelector('#canada');
+
+pointcanada.addEventListener('mouseenter', function () {
+    // this.classList.remove('first');
+    canada.classList.add('second');
+})
+pointcanada.addEventListener('mouseleave', function () {
+    // this.classList.add('first');
+    canada.classList.remove('second');
+})
+
+var pointmexico = document.querySelector('#pointmexico');
+var mexico = document.querySelector('#mexico');
+
+pointmexico.addEventListener('mouseenter', function () {
+    // this.classList.remove('first');
+    mexico.classList.add('second');
+})
+pointmexico.addEventListener('mouseleave', function () {
+    // this.classList.add('first');
+    mexico.classList.remove('second');
+})
+
+var pointcentro = document.querySelector('#pointcentro');
+var centro = document.querySelector('#centro');
+
+pointcentro.addEventListener('mouseenter', function () {
+    // this.classList.remove('first');
+    centro.classList.add('second');
+})
+pointcentro.addEventListener('mouseleave', function () {
+    // this.classList.add('first');
+    centro.classList.remove('second');
+})
+
+var pointetopia = document.querySelector('#pointetopia');
+var etopia = document.querySelector('#etopia');
+
+pointetopia.addEventListener('mouseenter', function () {
+    // this.classList.remove('first');
+    etopia.classList.add('second');
+})
+pointetopia.addEventListener('mouseleave', function () {
+    // this.classList.add('first');
+    etopia.classList.remove('second');
+})
+
+var pointcolombia = document.querySelector('#pointcolombia');
+var colombia = document.querySelector('#colombia');
+
+pointcolombia.addEventListener('mouseenter', function () {
+    // this.classList.remove('first');
+    colombia.classList.add('second');
+})
+pointcolombia.addEventListener('mouseleave', function () {
+    // this.classList.add('first');
+    colombia.classList.remove('second');
+})
+
+var pointecuador = document.querySelector('#pointecuador');
+var ecuador = document.querySelector('#ecuador');
+
+pointecuador.addEventListener('mouseenter', function () {
+    // this.classList.remove('first');
+    ecuador.classList.add('second');
+})
+pointecuador.addEventListener('mouseleave', function () {
+    // this.classList.add('first');
+    ecuador.classList.remove('second');
+})
+
+var pointperu = document.querySelector('#pointperu');
+var peru = document.querySelector('#peru');
+
+pointperu.addEventListener('mouseenter', function () {
+    // this.classList.remove('first');
+    peru.classList.add('second');
+})
+pointperu.addEventListener('mouseleave', function () {
+    // this.classList.add('first');
+    peru.classList.remove('second');
+})
+
+var pointchile = document.querySelector('#pointchile');
+var chile = document.querySelector('#chile');
+
+pointchile.addEventListener('mouseenter', function () {
+    // this.classList.remove('first');
+    chile.classList.add('second');
+})
+pointchile.addEventListener('mouseleave', function () {
+    // this.classList.add('first');
+    chile.classList.remove('second');
+})
