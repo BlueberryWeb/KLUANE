@@ -673,6 +673,7 @@ footer span{
     text-align: center;
     display: block;
     cursor: pointer;
+    background-color: #111;
 }
 .apariencia-link img{
     width: 30px;
