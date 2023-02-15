@@ -1,0 +1,1756 @@
+/*COLORES 
+AZUL: #00276C;
+GRIS: #546884;
+*/
+html,
+body {
+    width: 100% !important;
+    overflow-x: hidden;
+}
+
+.a_none_style {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Raleway Black';
+    src: url("fonts/Raleway-Black.ttf");
+}
+
+@font-face {
+    font-family: 'Raleway Bold';
+    src: url("fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Raleway Regular';
+    src: url("fonts/Raleway-Regular.ttf");
+}
+
+.black {
+    font-family: 'Raleway Black';
+}
+
+.bold {
+    font-family: 'Raleway Bold';
+}
+
+.regular {
+    font-family: 'Raleway Regular';
+}
+
+/* BACKGOUNDS */
+body {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879556/img/bg-page_etdhnk.png');
+    background-attachment: fixed;
+}
+
+.bg-index {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879550/img/bg-index_fkoawo.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.bg-bco {
+    background-color: #fff;
+    color: #546884;
+}
+.bg-blanco{
+    background-color: #fff;
+    height: 500px;
+}
+.bg-blanco-2{
+    background-color: #fff;
+    height: 600px;
+}
+.cuadros{
+    position: absolute;
+    left: -8%;
+    width: 100%;
+    top: 10%;
+}
+.bg-trabajador-index {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879558/img/bg-trabajadores_bgefsb.png');
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-trabajadores-index {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879558/img/bg-risk-analysis_rqg3v9.png');
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-water {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879568/img/bg-water-recirculation_rb7bpw.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-footer {
+    background-color: #F0F0F0;
+    width: 100%;
+    color: #546884;
+}
+
+.bg-azul {
+    background-color: #00276C;
+    position: relative;
+}
+.bg-dirlling-azul{
+    background-color: #00276C;
+    position: relative;
+    height: 70vh;
+}
+
+.bg-dirlling-azul-2{
+    background-color: #00276C;
+    position: relative;
+    height: 80vh;
+}
+
+.bg-about {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879552/img/bg-about-us_ehiwmf.png');
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-trabajador-about {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879523/img/bg-trabajador_hx3k01.png');
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-trabajadores-about {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879553/img/bg-trabajadores-about_oicpea.png');
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-trabajadora-about {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879536/img/bg-trabajador-about_uav5m4.png');
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-menu {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879556/img/bg-page_etdhnk.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-drilling {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879540/img/bg-drilling_qy5c6p.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-drilling-last {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879542/img/bg-drilling-last_fwzznu.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+
+.bg-brown-placas {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879550/img/bg-placas_caykbp.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-work-with-us {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879535/img/bg-work-with-us_cr046z.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.bg-contact {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879550/img/bg-contact_vnbjoc.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.bg-drilling-phone {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879522/img/bg-drilling-phone_iu5afi.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.bg-descanso-about {
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879544/img/bg-last-about_vztnbr.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.bg-drilling-middle{
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879538/img/bg-drilling-middle_hmrubl.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.bg-drilling-middle-phone{
+    background-image: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879566/img/bg-drilling-midle-phone_yqnj0f.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60vh;
+}
+.ecuador{
+    margin-top: 11.7rem;
+}
+.peru{
+    margin-top: -1.8rem;
+}
+.bg-degradado{
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #546884;
+}
+/* TERMINA BACKGROUNDS */
+/* ICONOS E IMÁGENES  */
+.bb-footer{
+    width: 200px;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.logo-menu {
+    width: 150px;
+}
+
+.bb-logo-menu {
+    width: 150px;
+}
+
+.icono-redes-menu {
+    width: 30px;
+}
+
+.icono-learn {
+    width: 40px;
+    padding-top: 1px;
+}
+
+.nature-front {
+    z-index: 2;
+    margin-top: -250px;
+    position: absolute;
+    top: 0;
+    left: -15%;
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+}
+
+.nature-back {
+    z-index: 1;
+    width: 520px;
+    height: 520px;
+}
+
+.images-nature {
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.box-nature {
+    background-color: #00276C;
+    width: 100px;
+    height: 300px;
+    position: absolute;
+    margin-top: -200px;
+    left: 61%;
+    z-index: 2;
+}
+
+.social-footer img {
+    width: 30px;
+}
+
+.logo-footer img {
+    width: 120px;
+}
+
+.btn-play {
+    margin-top: 15rem;
+    width: 120px;
+}
+
+.btn-send {
+    border-radius: 0;
+    border-color: #00276C;
+    background-color: #00276C;
+    width: 250px;
+}
+
+.icon-index {
+    width: 60px;
+}
+
+.icon-main {
+    width: 100px;
+}
+
+.icon-main-2 {
+    width: 120px;
+}
+
+.icon-country {
+    width: 70px;
+}
+
+.logo-contact {
+    width: 150px;
+}
+
+.img-mision {
+    width: 150px;
+}
+
+.img-vision {
+    width: 150px;
+}
+
+.img-respect {
+    width: 150px;
+    margin-bottom: 2rem;
+}
+
+.img-honesty {
+    width: 150px;
+    margin-bottom: 2rem;
+}
+
+.img-service {
+    width: 150px;
+    margin-bottom: 2rem;
+}
+
+.img-commitment {
+    width: 150px;
+    margin-bottom: 2rem;
+}
+
+.img-kidness {
+    width: 150px;
+    margin-bottom: 2rem;
+}
+
+.img-safety {
+    width: 150px;
+    margin-bottom: 2rem;
+}
+
+.vid-world video{
+    width: 70%;
+    margin-left: 30%;
+}
+/* TERMINA ICONOS E IMÁGENES */
+/* COLOR TEXTOS */
+.txt-gris {
+    color: #546884;
+}
+
+.txt-azul {
+    color: #00276C;
+}
+
+.azul-bars {
+    background-color: #00276C !important;
+}
+
+.txt-cafe {
+    color: #707070;
+}
+
+/* TERMINA COLOR TEXTOS  */
+/* TEXTOS */
+.txt-index p {
+    line-height: 85%;
+}
+
+.txt-high p {
+    line-height: 75%;
+}
+
+.txt-enviroment p {
+    line-height: 75%;
+}
+.txt-nature p {
+    line-height: 75%;
+}
+
+.txt-water {
+    line-height: 75%;
+}
+
+.txt-risk p {
+    line-height: 80%;
+}
+
+.txt-presence p {
+    line-height: 75%;
+}
+
+.logo-footer p {
+    line-height: 50%;
+    font-size: 14px;
+}
+
+.txt-about p {
+    line-height: 75%;
+}
+
+.txt-we-have p {
+    line-height: 75%;
+}
+
+.txt-we-are p {
+    line-height: 75%;
+}
+
+.txt-incident p {
+    line-height: 80%;
+}
+
+.txt-global-presence p {
+    line-height: 80%;
+}
+
+.txt-social p {
+    line-height: 80%;
+}
+
+.txt-governance p {
+    line-height: 80%;
+    text-align: end;
+}
+
+.txt-continuos p {
+    line-height: 70%;
+}
+
+.txt-versatile p {
+    line-height:70%;
+}
+
+.txt-high-standards p {
+    line-height: 80%;
+}
+
+.txt-higher {
+    line-height: 80%;
+}
+
+.txt-efficient {
+    line-height: 80%;
+}
+
+.txt-innovation {
+    line-height: 80%;
+}
+
+.box-drilling-2 h1 {
+    line-height: 90%;
+}
+
+.txt-main {
+    line-height: 50%;
+    color: #fff;
+}
+
+.txt-country {
+    line-height: 60%;
+}
+
+.txt-mision-vision {
+    color: #fff;
+}
+
+.txt-mision-vision p {
+    line-height: 50%;
+    font-family: 'Raleway Regular';
+}
+
+.txt-values {
+    font-family: 'Raleway Regular';
+    line-height: 50%;
+}
+
+.bg-blanco p{
+    line-height: 50%;
+    font-size: 15px;
+}
+
+.bg-blanco-2 p{
+    line-height: 50%;
+    font-size: 15px;
+}
+
+.txt-cuadros-bcos p{
+    line-height: 80%;
+    font-size: 16px;
+}
+/* TERMINA TEXTOS */
+.txt-index {
+    margin: 2rem 5rem 0 7rem;
+}
+.txt-water {
+    margin: 3rem 5rem 0 7rem;
+}
+
+.txt-risk {
+    margin: 3rem 5rem 0 7rem;
+}
+
+.txt-about {
+    margin: 2rem 3rem 0 3rem;
+}
+
+.txt-we-are {
+    margin: 2rem 5rem 0 5rem;
+}
+
+.txt-we-have {
+    margin: 2rem 5rem 0 5rem;
+}
+
+.world-and-risk {
+    position: relative;
+}
+
+.card-risk {
+    position: absolute;
+    top: 28%;
+    left: 20%;
+}
+
+.our-presence {
+    margin-top: 18rem;
+}
+
+.menu-footer {
+    margin: 0 3rem 0 3rem;
+}
+
+.legal-footer {
+    margin: 0 3rem 0 3rem;
+}
+
+.box-about-1 {
+    position: relative;
+}
+
+.box-about-2 {
+    position: absolute;
+    top: 40%;
+}
+
+.card-insident {
+    margin-top: -12rem;
+}
+
+.box-enviroment {
+    margin-top: -220px;
+}
+
+.box-governance {
+    margin-top: -120px;
+}
+
+/*CARROUSEL DE TRABAJADORES*/
+.custom-slider {
+    width: 90%;
+    margin: auto;
+}
+
+.custom-box {
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    margin: 15px;
+    font-size: 5em;
+    padding: 10px;
+}
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    line-height: 0;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: #043e46;
+}
+
+.slick-slider {
+    user-select: none;
+}
+
+.slick-next {
+    right: -30px;
+}
+
+.slick-prev {
+    left: -30px;
+}
+
+.slick-next:before {
+    content: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879559/img/arrow-right_molfll.png');
+    font-size: 0.5em;
+    font-weight: 1000;
+    padding-left: 4px;
+    color: white;
+}
+
+.slick-prev:before {
+    content: url('https://res.cloudinary.com/di4ezko9l/image/upload/v1675879516/img/arrow-left_ue9swz.png');
+    font-size: 1em;
+    font-weight: 1000;
+    padding-left: 4px;
+    color: white;
+}
+
+/*TERMINA CARROUSEL DE TRABAJADORES*/
+/* MENU */
+.ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.drawer-list {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    transform: translate(100vw, 0);
+    /* ie workaround */
+    -ms-transform: translatex(-100vw);
+    box-sizing: border-box;
+    pointer-events: none;
+    padding: 125px 0 0 40px;
+    transition: width 475ms ease-out, transform 450ms ease, border-radius 0.8s 0.1s ease;
+    border-bottom-left-radius: 100vw;
+    background-color: #00276C;
+    background-color: rgba(0, 39, 108, 0.8);
+    z-index: 20;
+}
+
+@media (min-width: 768px) {
+    .drawer-list {
+        width: 40vw;
+    }
+}
+
+.drawer-list .ul {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    pointer-events: auto;
+}
+
+.drawer-list .li {
+    list-style: none;
+    text-transform: uppercase;
+    pointer-events: auto;
+    white-space: nowrap;
+    box-sizing: border-box;
+    transform: translatex(100vw);
+    /* ie workaround */
+    -ms-transform: translatex(-100vw);
+}
+
+.drawer-list .li:last-child {
+    margin-bottom: 2em;
+}
+
+.drawer-list .li a {
+    text-decoration: none;
+    color: #fefefe;
+    text-align: start;
+    display: block;
+    padding: 2rem;
+    font-size: calc(24px - 0.5vw);
+}
+
+@media (min-width: 768px) {
+    .drawer-list .li a {
+        text-align: left;
+        padding: 0.5rem;
+    }
+}
+
+.drawer-list .li a:hover {
+    cursor: pointer;
+    background-color: #546884;
+    background-color: rgba(84, 104, 132, 0.5);
+}
+
+input.hamburger {
+    display: none;
+}
+
+input.hamburger:checked~.drawer-list {
+    transform: translatex(0);
+    border-bottom-left-radius: 0;
+}
+
+input.hamburger:checked~.drawer-list .li {
+    transform: translatex(0);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(1) {
+    transition: transform 1s 0.08s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(2) {
+    transition: transform 1s 0.16s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(3) {
+    transition: transform 1s 0.24s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(4) {
+    transition: transform 1s 0.32s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(5) {
+    transition: transform 1s 0.4s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(6) {
+    transition: transform 1s 0.48s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(7) {
+    transition: transform 1s 0.56s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(8) {
+    transition: transform 1s 0.64s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(9) {
+    transition: transform 1s 0.72s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(10) {
+    transition: transform 1s 0.8s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(11) {
+    transition: transform 1s 0.88s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(12) {
+    transition: transform 1s 0.96s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(13) {
+    transition: transform 1s 1.04s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(14) {
+    transition: transform 1s 1.12s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(15) {
+    transition: transform 1s 1.2s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(16) {
+    transition: transform 1s 1.28s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(17) {
+    transition: transform 1s 1.36s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(18) {
+    transition: transform 1s 1.44s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(19) {
+    transition: transform 1s 1.52s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(20) {
+    transition: transform 1s 1.6s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(21) {
+    transition: transform 1s 1.68s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(22) {
+    transition: transform 1s 1.76s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(23) {
+    transition: transform 1s 1.84s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(24) {
+    transition: transform 1s 1.92s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(25) {
+    transition: transform 1s 2s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(26) {
+    transition: transform 1s 2.08s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(27) {
+    transition: transform 1s 2.16s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(28) {
+    transition: transform 1s 2.24s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(29) {
+    transition: transform 1s 2.32s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(30) {
+    transition: transform 1s 2.4s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(31) {
+    transition: transform 1s 2.48s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(32) {
+    transition: transform 1s 2.56s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(33) {
+    transition: transform 1s 2.64s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(34) {
+    transition: transform 1s 2.72s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(35) {
+    transition: transform 1s 2.8s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(36) {
+    transition: transform 1s 2.88s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(37) {
+    transition: transform 1s 2.96s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(38) {
+    transition: transform 1s 3.04s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(39) {
+    transition: transform 1s 3.12s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(40) {
+    transition: transform 1s 3.2s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(41) {
+    transition: transform 1s 3.28s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(42) {
+    transition: transform 1s 3.36s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(43) {
+    transition: transform 1s 3.44s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(44) {
+    transition: transform 1s 3.52s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(45) {
+    transition: transform 1s 3.6s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(46) {
+    transition: transform 1s 3.68s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(47) {
+    transition: transform 1s 3.76s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(48) {
+    transition: transform 1s 3.84s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(49) {
+    transition: transform 1s 3.92s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li:nth-child(50) {
+    transition: transform 1s 4s cubic-bezier(0.29, 1.4, 0.44, 0.96);
+}
+
+input.hamburger:checked~.drawer-list li a {
+    padding-right: 15px;
+}
+
+input.hamburger:checked~label>i {
+    background-color: transparent;
+    transform: rotate(90deg);
+}
+
+input.hamburger:checked~label>i:before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+input.hamburger:checked~label>i:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+input.hamburger:checked~label close {
+    color: #fefefe;
+    width: 100%;
+}
+
+input.hamburger:checked~label open {
+    color: rgba(0, 0, 0, 0);
+    width: 0;
+}
+
+label.hamburger {
+    z-index: 9999;
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+label.hamburger:hover {
+    cursor: pointer;
+}
+
+label.hamburger text close,
+label.hamburger text open {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    text-align: center;
+    position: absolute;
+    transform: translateY(50px);
+    text-align: center;
+    overflow: hidden;
+    transition: width 0.25s 0.35s, color 0.45s 0.35s;
+}
+
+label.hamburger text close {
+    color: rgba(0, 0, 0, 0);
+    right: 0;
+    width: 0;
+}
+
+label.hamburger text open {
+    color: #fefefe;
+    width: 100%;
+}
+
+label.hamburger>i {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    background-color: #fefefe;
+    pointer-events: auto;
+    transition-duration: 0.35s;
+    transition-delay: 0.35s;
+}
+
+label.hamburger2>i {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    background-color: #00276C;
+    pointer-events: auto;
+    transition-duration: 0.35s;
+    transition-delay: 0.35s;
+}
+
+label.hamburger>i:before,
+label.hamburger>i:after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    left: 50%;
+    background-color: #fefefe;
+    content: "";
+    transition: transform 0.35s;
+    transform-origin: 50% 50%;
+}
+
+label.hamburger2>i:before,
+label.hamburger2>i:after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    left: 50%;
+    background-color: #00276C;
+    content: "";
+    transition: transform 0.35s;
+    transform-origin: 50% 50%;
+}
+
+label.hamburger>i:before {
+    transform: translate(-50%, -14px);
+}
+
+label.hamburger>i:after {
+    transform: translate(-50%, 14px);
+}
+
+label.hamburger {
+    position: fixed;
+    top: 30px;
+    right: 70px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 150px;
+}
+
+header ul li {
+    position: relative;
+    text-align: start;
+}
+
+.down {
+    background-color: #00276C;
+}
+
+/* TERMINA MENU */
+/* PILLS DE HSE POLICY */
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #00276C !important;
+    color: #fff;
+    font-family: 'Raleway Black';
+}
+
+.nav-pills .nav-link {
+    color: #00276C;
+    font-family: 'Raleway Regular';
+    width: 280px;
+}
+
+.nav-pills {
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.borde-right {
+    border-right: 3px solid #00276C;
+}
+
+/* OVER PILLS HSE POLICY */
+/* FORMULARIO */
+.form-work {
+    color: #fff;
+}
+
+.form-work input {
+    border-radius: 0;
+}
+
+.form-work label {
+    font-size: 23px;
+}
+
+/* ENDS FORMULARIO */
+.box-drilling {
+    margin-top: 33rem;
+}
+
+.box-drilling-phone {
+    margin-top: -5rem;
+}
+
+.box-drilling-2 {
+    margin-top: -200px;
+}
+
+.box-contact {
+    margin-top: -9rem;
+}
+
+.box-work {
+    margin-top: 20rem;
+    line-height: 80%;
+}
+
+.box-countries {
+    margin-bottom: 9rem;
+}
+
+.box-value {
+    margin-top: -5rem;
+}
+
+/*GALERÍA DE TRABAJADORES*/
+.slider-w {
+    background: white;
+    height: 345px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slider-w::before,
+.slider-w::after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+}
+
+.slider-w::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+
+.slider-w::before {
+    left: 0;
+    top: 0;
+}
+
+.slider-w .slide-track-w {
+    animation: scroll-w 80s linear infinite;
+    display: flex;
+    width: calc(345px * 10);
+}
+
+.slider-w .slide-track-w:hover {
+    animation-play-state: paused;
+}
+
+.slider-w .slide-w {
+    height: 386px;
+    width: 345px;
+}
+
+.slide-w img {
+    position: absolute;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.slide-w img.top:hover {
+    opacity: 0;
+}
+
+@keyframes scroll-w {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-345px * 5));
+    }
+}
+
+/*TERMINA GALERÍA DE TRABAJADORES*/
+/* MODAL DEL VIDEO  */
+.modal-content, .modal-header{
+    background: none;
+    border: none;
+}
+.btn-close{
+    color: #fff!important;
+    background: none;
+}
+.fa-xmark{
+    font-size: 2rem;
+}
+/* TERMINA EL MODAL DEL VIDEO */
+
+/* MAPA */
+.mapa{
+    position: relative;
+}
+
+.paises img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transform: scale(0.97);
+    transition: all 200ms ease-out;
+    backface-visibility: hidden;
+}
+
+.paises img.second {
+    opacity: 1;
+    transform: scale(1);
+    z-index: 10;
+}
+
+.apariencia-link{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    /*background-color: #111;*/
+}
+
+.apariencia-link img{
+    width: 30px;
+}
+
+.canada-link{
+    position: absolute;
+    top: 27.5%;
+    left: 21.1%;
+}
+
+.mexico-link{
+    position: absolute;
+    top: 50.4%;
+    left: 24.1%;
+}
+
+.centro-link{
+    position: absolute;
+    top: 56%;
+    left: 28.3%;
+}
+.etiopia-link{
+    position: absolute;
+    top: 56.2%;
+    left: 55.2%; 
+}
+
+.colombia-link{
+    position: absolute;
+    top: 58.1%;
+    left: 30.5%;
+}
+
+.ecuador-link{
+    position: absolute;
+    top: 60%;
+    left: 29.2%;
+}
+
+.peru-link{
+    position: absolute;
+    top: 63.1%;
+    left: 29.7%;
+}
+
+.chile-link{
+    position: absolute;
+    top: 69%;
+    left:31.5%;
+}
+
+/* TERMINA EL MAPA */
+/* RESPONISVO */
+@media only screen and (min-width:320px) and (max-width: 479px) {
+    .order-1-phone {
+        order: 1;
+    }
+
+    .order-2-phone {
+        order: 2;
+    }
+
+    .txt-index p {
+        line-height: 100%;
+    }
+
+    .txt-we-are p {
+        line-height: 90%;
+    }
+
+    .txt-about p {
+        line-height: 100%;
+    }
+
+    .txt-enviroment p {
+        line-height: 115%;
+    }
+
+    .txt-high p {
+        line-height: 115%;
+    }
+
+    .txt-high-standards p {
+        line-height: 100%;
+    }
+
+    .txt-versatile p {
+        line-height: 115%;
+    }
+
+    .txt-continuos p {
+        line-height: 115%;
+    }
+
+    .txt-innovation {
+        line-height: 95%;
+    }  
+
+    .txt-efficient {
+        line-height: 95%;
+    }  
+
+    .txt-higher {
+        line-height: 95%;
+    }  
+
+    .txt-main {
+        line-height: 95%;
+        color: #fff;
+    }
+
+    .card-risk {
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    .box-nature {
+        visibility: hidden;
+    }
+    .box-enviroment {
+        margin-top: 0;
+    }
+    .box-governance {
+        margin-top: -0;
+    }
+    .menu-footer {
+        margin: 0;
+    }
+    
+    .legal-footer {
+        margin: 0;
+    }
+    .social-footer{
+        text-align: start!important;
+    }
+    .social-footer p{
+        text-align: start!important;
+    }
+    .txt-nature p {
+        line-height: 115%;
+    }
+    .txt-index {
+        margin: 2rem 2rem 0 2rem;
+    }
+    .txt-water {
+        margin: 2rem 2rem 0 2rem;
+        text-align: center;
+    }
+    
+    .txt-risk {
+        margin: 2rem 2rem 0 2rem;
+    }
+    .txt-risk p{
+        line-height: 115%;
+    }
+    .txt-we-have p {
+        line-height: 115%;
+    }
+    .txt-incident p {
+        line-height: 115%;
+    }
+    .txt-social {
+        text-align: center;
+    }
+    .txt-enviroment{
+        text-align: center;
+    }
+    .txt-governance{
+        text-align: center!important;
+    }
+    .txt-governance p{
+        text-align: center!important;
+    }
+    .txt-mision-vision p {
+        line-height: 115%;
+    }
+    .txt-values {
+        line-height: 115%;
+    }
+    .txt-global-presence p {
+        line-height: 115%;
+    }
+    .box-work {
+        line-height: 115%;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width: 767px) {
+    .order-1-phone {
+        order: 1;
+    }
+
+    .order-2-phone {
+        order: 2;
+    }
+
+    .txt-index p {
+        line-height: 100%;
+    }
+
+    .txt-we-are p {
+        line-height: 90%;
+    }
+
+    .txt-about p {
+        line-height: 100%;
+    }
+
+    .txt-enviroment p {
+        line-height: 115%;
+    }
+
+    .txt-high p {
+        line-height: 115%;
+    }
+
+    .txt-high-standards p {
+        line-height: 100%;
+    }
+
+    .txt-versatile p {
+        line-height: 80%;
+    }
+
+    .txt-continuos p {
+        line-height: 80%;
+    }
+
+    .txt-innovation {
+        line-height: 95%;
+    }  
+    
+    .txt-efficient {
+        line-height: 95%;
+    }  
+
+    .txt-higher {
+        line-height: 95%;
+    }  
+
+    .txt-main {
+        line-height: 90%;
+        color: #fff;
+    }
+
+    .card-risk {
+        position: absolute;
+        top: 20%;
+        left: -5%;
+    }
+    .txt-risk p{
+        line-height: 115%;
+    }
+    .box-nature {
+        visibility: hidden;
+    }
+    .menu-footer {
+        margin: 0;
+    }
+    .box-enviroment {
+        margin-top: 0;
+    }
+    .box-governance {
+        margin-top: -0;
+    }
+    .legal-footer {
+        margin: 0;
+    }
+    .social-footer{
+        text-align: start!important;
+    }
+    .social-footer p{
+        text-align: start!important;
+    }
+    .box-work {
+        line-height: 115%;
+    }
+    .txt-we-have p {
+        line-height: 115%;
+    }
+    .txt-incident p {
+        line-height: 115%;
+    }
+    .txt-social {
+        text-align: center;
+    }
+    .txt-enviroment{
+        text-align: center;
+    }
+    .txt-governance{
+        text-align: center!important;
+    }
+    .txt-governance p{
+        text-align: center!important;
+    }
+    .txt-mision-vision p {
+        line-height: 115%;
+    }
+    .txt-values {
+        line-height: 115%;
+    }
+    .txt-global-presence p {
+        line-height: 115%;
+    }
+    
+}
+
+@media only screen and (min-width:768px) and (max-width: 1023px) {
+    .order-1-phone {
+        order: 1;
+    }
+
+    .order-2-phone {
+        order: 2;
+    }
+
+    .txt-about p {
+        line-height: 100%;
+    }
+    
+    .txt-we-are p {
+        line-height: 90%;
+    }
+
+    .txt-index p {
+        line-height: 100%;
+    }
+
+    .txt-enviroment p {
+        line-height: 90%;
+    }
+
+    .txt-high p {
+        line-height: 90%;
+    }
+
+    .txt-versatile p {
+        line-height: 80%;
+    }
+
+    .txt-high-standards p {
+        line-height: 100%;
+    }
+
+    .txt-continuos p {
+        line-height: 80%;
+    }
+
+    .txt-innovation {
+        line-height: 95%;
+    }  
+
+    .txt-efficient {
+        line-height: 95%;
+    }  
+
+    .txt-higher {
+        line-height: 95%;
+    }  
+
+    .txt-main {
+        line-height: 90%;
+        color: #fff;
+    }
+
+    .card-risk {
+        position: absolute;
+        top: 22%;
+        left: 4%;
+    }
+
+    .box-nature {
+        visibility: hidden;
+    }
+    .txt-social {
+        text-align: center;
+    }
+    .txt-enviroment{
+        text-align: center;
+    }
+    .txt-governance{
+        text-align: center!important;
+    }
+    .txt-governance p{
+        text-align: center!important;
+    }
+    .box-enviroment {
+        margin-top: 0;
+    }
+    .box-governance {
+        margin-top: -0;
+    }
+    .txt-values{
+        text-align: center;
+    }
+    .menu-footer {
+        margin: 0;
+    }
+    
+    .legal-footer {
+        margin: 0;
+    }
+    .social-footer{
+        text-align: start!important;
+    }
+    .social-footer p{
+        text-align: start!important;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1200px) {
+    .txt-values p{
+        font-size: 14px;
+    }
+    .box-enviroment {
+        margin-top: 0;
+    }
+    .box-governance {
+        margin-top: -0;
+    }
+    .txt-incident p{
+        font-size: 15px;
+    }
+    .txt-social p{
+        font-size: 14px;
+    }
+    .txt-enviroment p{
+        font-size: 14px;
+    }
+    .txt-governance p{
+        font-size: 14px;
+    }
+    .txt-we-have p{
+        font-size: 17px;
+    }
+    .txt-we-are p{
+        font-size: 17px;
+    }
+    .txt-index p{
+        font-size: 17px;
+    }
+    .txt-water p{
+        font-size: 19px;
+    }
+    .card-risk{
+        top: 25%;
+    }
+    .txt-high-standards p{
+        font-size: 17px;
+    }
+    .txt-versatile p{
+        font-size: 17px;
+        line-height: 90%;
+    }
+    .txt-continuos p{
+        font-size: 17px;
+        line-height: 90%;
+    }
+    .txt-innovation p{
+        font-size: 17px;
+    }
+    .txt-efficient p{
+        font-size: 17px;
+    }
+    .txt-higher p{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {}
